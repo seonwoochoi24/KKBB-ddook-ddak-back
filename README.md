@@ -122,10 +122,6 @@ $env:OPENAI_API_KEY="your-openai-api-key"
 | --- | --- | --- |
 | `OPENAI_API_KEY` | Yes | OpenAI Chat Completions API 인증 키 |
 
-현재 CORS 허용 주소:
-
-- `http://localhost:5173`
-- `https://kkbb-ddookddak.netlify.app`
 
 ## 테스트
 
@@ -154,12 +150,6 @@ src/main/java/com/example/kb_ai_backend
     ├── WidgetDataService.java
     └── ExchangeRateService.java
 ```
-
-## 관련 링크
-
-- Live Demo: [kkbb-ddookddak.netlify.app](https://kkbb-ddookddak.netlify.app)
-- Frontend: [sunwoo030616/kkbb-ddook-ddak-front](https://github.com/sunwoo030616/kkbb-ddook-ddak-front)
-- Figma: [2026 KB AI Challenge](https://www.figma.com/design/hW2FEx2HREkWZSIQR4qJqf/2026-KB-AI-Challenge)
 
 ## 향후 확장
 
