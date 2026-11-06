@@ -1,6 +1,10 @@
 package com.example.kb_ai_backend.service;
 
 import org.springframework.stereotype.Service;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
+import java.util.concurrent.TimeUnit;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
@@ -12,6 +16,8 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @Service
 public class ExchangeRateService {
+
+    private static final Logger log = LoggerFactory.getLogger(ExchangeRateService.class);
 
     private static final String API_URL = "https://open.er-api.com/v6/latest/KRW";
     private static final long CACHE_TTL_MILLIS = 1000 * 60 * 60 * 6; // 6시간 캐싱
@@ -51,9 +57,12 @@ public class ExchangeRateService {
     private void refreshCacheIfStale() {
         long now = System.currentTimeMillis();
         if (cachedRates != null && (now - lastFetchedAt) < CACHE_TTL_MILLIS) {
+            log.info("performance requestId={} stage=exchange_cache cache=hit", MDC.get("requestId"));
             return; // 캐시 아직 유효함
         }
 
+        long started = System.nanoTime();
+        boolean refreshed = false;
         try {
             Map<String, Object> response = restTemplate.getForObject(API_URL, Map.class);
             if (response == null) return;
@@ -71,10 +80,15 @@ public class ExchangeRateService {
 
             cachedRates = parsed;
             lastFetchedAt = now;
+            refreshed = true;
 
         } catch (Exception e) {
             e.printStackTrace();
             // 실패해도 기존 캐시(있다면)는 유지, 없으면 null 그대로 둠
+        } finally {
+            log.info("performance requestId={} stage=exchange_refresh durationMs={} refreshed={}",
+                    MDC.get("requestId"),
+                    TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - started), refreshed);
         }
     }
 }
