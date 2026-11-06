@@ -31,22 +31,25 @@
 ```text
 사용자 자연어
   → POST /api/canvas
-  → GPT-4o-mini Function Calling
+  → jev 위젯 선택 (1회 호출)
+  → 서버 검증·명확한 여행 파라미터 추출
   → 승인 위젯 선택 및 파라미터 추출
   → 서버 데이터 빌드·환율 조회
   → CanvasResponse JSON
 ```
 
-AI는 필요한 금융 기능을 선택하고, 정확한 환율과 계산 값은 서버가 담당합니다. 생성 가능한 범위는 9개 위젯 enum으로 제한되어 있습니다.
+AI는 필요한 금융 기능을 선택하고, 정확한 환율과 계산 값은 서버가 담당합니다. 새 흐름과 입력 제한은 [jev 화면 생성](docs/JEV_CANVAS.md)을 참고하세요. 생성 가능한 범위는 9개 위젯 enum으로 제한되어 있습니다.
 
 ## 주요 기능
 
-- `gpt-4o-mini` Function Calling 기반 복합 의도 분석
+- jev 기반 위젯 선택: `/api/canvas`에서 1회 호출, GPT 추가 호출 없음
 - 최대 3개 금융 위젯 선택 및 조합
-- 여행지, ISO 4217 통화, 요청 금액, 여행 기간, 모임명 추출
+- 알려진 여행지·통화 및 명확한 외화 금액·여행 기간을 서버에서 추출 (제한된 규칙 기반)
+- 깨비는 짧은 고정 문구만 반환하며 별도 설명 생성은 보류
+- 불확실한 위젯 선택이나 충돌하는 파라미터는 확인 요청
 - `open.er-api.com` 기반 실시간 환율 조회
 - 환율 데이터 6시간 인메모리 캐시
-- OpenAI 또는 환율 API 장애 시 안전한 폴백
+- jev 장애는 명시적 오류 응답, 환율 API 장애는 기존 캐시·지원 불가 처리
 - 로컬 Vite 및 Netlify 배포 주소 CORS 허용
 
 ## API
@@ -97,34 +100,34 @@ AI는 필요한 금융 기능을 선택하고, 정확한 환율과 계산 값은
 
 ### 1. LLM과 금융 계산 분리
 
-`OpenAiApiService`는 사용자의 의도와 통화 코드를 추론하지만 환율 숫자를 생성하지 않습니다. `ExchangeRateService`가 외부 API에서 실제 값을 조회하고 `WidgetDataService`가 최종 위젯 데이터를 계산합니다.
+`JevCanvasService`는 jev가 고른 위젯을 검증하고 `CanvasParameters`로 명확한 통화·금액·기간을 읽습니다. AI가 환율 숫자를 생성하지 않습니다. `ExchangeRateService`가 외부 API에서 실제 값을 조회하고 `WidgetDataService`가 최종 위젯 데이터를 계산합니다.
 
 ### 2. 승인된 위젯만 생성
 
-Function Calling의 `enum`으로 허용 위젯을 제한합니다. 프론트엔드에서 구현되지 않은 임의의 컴포넌트나 코드를 실행하지 않습니다.
+고정된 9개 후보에 대한 jev 판정만 받고, 서버가 허용 목록·최대 3개·중복·검토 필요 여부를 검사합니다. 프론트엔드에서 구현되지 않은 임의의 컴포넌트나 코드를 실행하지 않습니다.
 
 ### 3. 장애 폴백
 
-빈 메시지는 LLM을 호출하지 않습니다. OpenAI 네트워크 오류, 인증 오류, 사용량 제한 또는 응답 파싱 실패가 발생하면 빈 위젯 목록을 반환합니다. 환율 API 장애 시 기존 캐시를 유지하며, 캐시도 없으면 지원 불가 상태를 반환합니다.
+빈 메시지는 AI를 호출하지 않습니다. jev 호출 실패·잘못된 응답은 502/504, 키 미설정은 503으로 반환합니다. 불확실한 선택이나 모호한 파라미터는 `status=needs_clarification`과 빈 위젯으로 확인을 요청합니다. 환율 API 장애 시 기존 캐시를 유지하며, 캐시도 없으면 지원 불가 상태를 반환합니다.
 
 ## 실행 방법
 
 ### 요구사항
 
 - Java 17+
-- OpenAI API Key
+- JEV API Key (`JEV_AI_API_KEY`)
 
 ### macOS / Linux
 
 ```bash
-export OPENAI_API_KEY="your-openai-api-key"
+export JEV_AI_API_KEY="your-jev-api-key"
 ./mvnw spring-boot:run
 ```
 
 ### Windows PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="your-openai-api-key"
+$env:JEV_AI_API_KEY="your-jev-api-key"
 ./mvnw.cmd spring-boot:run
 ```
 
@@ -134,7 +137,10 @@ $env:OPENAI_API_KEY="your-openai-api-key"
 
 | 이름 | 필수 | 설명 |
 | --- | --- | --- |
-| `OPENAI_API_KEY` | Yes | OpenAI Chat Completions API 인증 키 |
+| `JEV_AI_API_KEY` | Yes | 기본 화면 생성용 jev 인증 키 |
+| `JEV_MODEL` | No | 기본 `jev-latest` |
+| `JEV_MIN_CONFIDENCE` | No | 기본 0.6, 확률 보정이 검증된 값은 아님 |
+| `OPENAI_API_KEY` | No | 기존 GPT 비교 실험에만 필요 |
 
 
 ## 테스트

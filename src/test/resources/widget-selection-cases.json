@@ -1,0 +1,217 @@
+[
+  {
+    "id": "exchange",
+    "message": "나 상하이여행 환전하고 싶어",
+    "expected": [
+      "travel_card_charge_widget"
+    ]
+  },
+  {
+    "id": "travel",
+    "message": "일본으로 3박4일 여행 준비 도와줘",
+    "expected": [
+      "travel_card_charge_widget",
+      "overseas_qr_payment_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "loss",
+    "message": "지갑을 잃어버렸어",
+    "expected": [
+      "card_freeze_all",
+      "atm_smart_withdrawal",
+      "id_reissue_status_widget"
+    ]
+  },
+  {
+    "id": "domestic",
+    "message": "제주도 여행 준비 도와줘",
+    "expected": []
+  },
+  {
+    "id": "qr-only",
+    "message": "상하이에서 QR결제만 하고 싶어",
+    "expected": [
+      "overseas_qr_payment_widget"
+    ]
+  },
+  {
+    "id": "two-features",
+    "message": "상하이 여행 환전하고 보험도 알아봐줘",
+    "expected": [
+      "travel_card_charge_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "charge",
+    "message": "일본 여행 카드 충전하고 싶어",
+    "expected": [
+      "travel_card_charge_widget"
+    ]
+  },
+  {
+    "id": "usd",
+    "message": "미국 달러로 환전해줘",
+    "expected": [
+      "travel_card_charge_widget"
+    ]
+  },
+  {
+    "id": "insurance",
+    "message": "프랑스 여행자보험 알아봐줘",
+    "expected": [
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "qr-insurance",
+    "message": "일본에서 쓸 QR결제와 여행보험을 준비하고 싶어",
+    "expected": [
+      "overseas_qr_payment_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "travel-shanghai",
+    "message": "상하이 여행 준비 도와줘",
+    "expected": [
+      "travel_card_charge_widget",
+      "overseas_qr_payment_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "travel-bangkok",
+    "message": "방콕으로 일주일 해외여행 가는데 준비 도와줘",
+    "expected": [
+      "travel_card_charge_widget",
+      "overseas_qr_payment_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "exclude-insurance",
+    "message": "일본 여행 준비 도와줘. 보험은 빼줘",
+    "expected": [
+      "travel_card_charge_widget",
+      "overseas_qr_payment_widget"
+    ]
+  },
+  {
+    "id": "exclude-qr",
+    "message": "상하이 여행 준비 도와줘. QR결제는 필요 없어",
+    "expected": [
+      "travel_card_charge_widget",
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "exclude-exchange",
+    "message": "환전은 필요 없고 일본 여행보험만 알아봐줘",
+    "expected": [
+      "travel_insurance_widget"
+    ]
+  },
+  {
+    "id": "domestic-busan",
+    "message": "부산 여행 준비 도와줘",
+    "expected": []
+  },
+  {
+    "id": "domestic-seoul",
+    "message": "서울 당일치기 여행 준비하고 싶어",
+    "expected": []
+  },
+  {
+    "id": "unrelated-weather",
+    "message": "오늘 날씨 알려줘",
+    "expected": []
+  },
+  {
+    "id": "unrelated-food",
+    "message": "저녁 메뉴 추천해줘",
+    "expected": []
+  },
+  {
+    "id": "unrelated-greeting",
+    "message": "안녕하세요",
+    "expected": []
+  },
+  {
+    "id": "group-general",
+    "message": "테니스 동아리 회비 관리 도와줘",
+    "expected": [
+      "group_account_status",
+      "expense_report_widget",
+      "group_card_safety_widget"
+    ]
+  },
+  {
+    "id": "group-balance",
+    "message": "테니스 동아리 회비 계좌 잔액만 확인하고 싶어",
+    "expected": [
+      "group_account_status"
+    ]
+  },
+  {
+    "id": "group-expense",
+    "message": "동아리 지출 정산 보고서만 보고 싶어",
+    "expected": [
+      "expense_report_widget"
+    ]
+  },
+  {
+    "id": "group-card",
+    "message": "동아리 카드 안전 관리 기능만 필요해",
+    "expected": [
+      "group_card_safety_widget"
+    ]
+  },
+  {
+    "id": "card-loss",
+    "message": "개인 카드를 잃어버렸어",
+    "expected": [
+      "card_freeze_all",
+      "atm_smart_withdrawal",
+      "id_reissue_status_widget"
+    ]
+  },
+  {
+    "id": "loss-exclude-id",
+    "message": "지갑을 잃어버렸어. 신분증 재발급은 제외해줘",
+    "expected": [
+      "card_freeze_all",
+      "atm_smart_withdrawal"
+    ]
+  },
+  {
+    "id": "atm-only",
+    "message": "카드 없이 ATM에서 현금을 출금하고 싶어",
+    "expected": [
+      "atm_smart_withdrawal"
+    ]
+  },
+  {
+    "id": "id-only",
+    "message": "신분증 재발급 안내만 보고 싶어",
+    "expected": [
+      "id_reissue_status_widget"
+    ]
+  },
+  {
+    "id": "paraphrase-exchange",
+    "message": "상하이에서 쓸 위안화로 돈을 바꾸고 싶어",
+    "expected": [
+      "travel_card_charge_widget"
+    ]
+  },
+  {
+    "id": "paraphrase-insurance",
+    "message": "일본 여행에서 아플 때 대비할 여행보험만 필요해",
+    "expected": [
+      "travel_insurance_widget"
+    ]
+  }
+]
