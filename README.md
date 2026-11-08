@@ -26,89 +26,33 @@
 
 ## 개요
 
-깨비뚝딱 백엔드는 사용자의 자연어 금융 요청을 분석해 React 프론트엔드가 렌더링할 수 있는 구조화된 위젯 JSON을 반환합니다.
+사용자의 상황에서 검토할 업무를 먼저 판단하고, KB스타뱅킹 JSON 메뉴로 연결합니다.
 
 ```text
-사용자 자연어
-  → POST /api/canvas
-  → jev 위젯 선택 (1회 호출)
-  → 서버 검증·명확한 여행 파라미터 추출
-  → 승인 위젯 선택 및 파라미터 추출
-  → 서버 데이터 빌드·환율 조회
-  → CanvasResponse JSON
+POST /api/canvas
+→ JEV 상황·업무 판단(최대3개)
+→ 업무별 로컬 E5 의미검색
+→ JEV 메뉴 선택·직접요청/추가제안 구분(일괄1회)
+→ 기존 메뉴 ID 검증·응답
 ```
 
-AI는 필요한 금융 기능을 선택하고, 정확한 환율과 계산 값은 서버가 담당합니다. 새 흐름과 입력 제한은 [jev 화면 생성](docs/JEV_CANVAS.md)을 참고하세요. 생성 가능한 범위는 9개 위젯 enum으로 제한되어 있습니다.
-
-## 주요 기능
-
-- jev 기반 위젯 선택: `/api/canvas`에서 1회 호출, GPT 추가 호출 없음
-- 최대 3개 금융 위젯 선택 및 조합
-- 알려진 여행지·통화 및 명확한 외화 금액·여행 기간을 서버에서 추출 (제한된 규칙 기반)
-- 깨비는 짧은 고정 문구만 반환하며 별도 설명 생성은 보류
-- 불확실한 위젯 선택이나 충돌하는 파라미터는 확인 요청
-- `open.er-api.com` 기반 실시간 환율 조회
-- 환율 데이터 6시간 인메모리 캐시
-- jev 장애는 명시적 오류 응답, 환율 API 장애는 기존 캐시·지원 불가 처리
-- 로컬 Vite 및 Netlify 배포 주소 CORS 허용
+기본 경로에는 글자검색과 글자검색 폴백이 없습니다. 로컬 검색이 꺼져 있으면 503을 반환합니다. 의미검색 준비·실행은 [로컬 검색 안내](scripts/semantic/README.md)를 참고하세요.
 
 ## API
 
-### `POST /api/canvas`
+요청: POST /api/canvas, `{"message":"처음 일본 여행을 가는데 뭘 준비할까?"}`
 
-요청:
+`menus`에는 선택한 기존 메뉴 객체들이, `recommendations`에는 각 메뉴의 `needId`, `need`, `basis`, `explanation`이 포함됩니다. `basis=explicit`은 직접 요청한 업무, `suggested`는 상황상 검토할 추가 제안, `uncertain`은 이 구분만 불확실한 경우입니다. 이 부가 구분은 확실한 메뉴 선택을 막지 않습니다. `menuConfidence`와 `basisConfidence`를 별도로 반환하며, 보류·추가 제안 제외 이유는 `decision_notes`에서 확인합니다. 금융 거래나 가입은 실행하지 않습니다.
 
-```json
-{
-  "message": "상하이로 3박 4일 여행 가는데 환전과 QR 결제, 보험을 준비해줘"
-}
-```
+`status`: ready, partial, needs_clarification, no_match, empty. 복수 업무를 요청했다는 이유만으로 하나로 좁히도록 요구하지 않습니다. 일부 연결만 불확실하면 partial을 반환합니다. `widgets`는 빈 배열을 유지합니다.
 
-응답:
+`selection_metrics`: retrievalMode=semantic_only, planningMs, retrievalMs, selectionMs, jevCalls(0~2).
 
-```json
-{
-  "greeting": "상하이 여행이라니, 깨비와 함께 즐거운 여행을 준비해봐요!",
-  "widgets": [
-    {
-      "type": "travel_card_charge_widget",
-      "currency": "CNY",
-      "supported": true,
-      "exchangeRate": 190.0
-    },
-    {
-      "type": "overseas_qr_payment_widget"
-    },
-    {
-      "type": "travel_insurance_widget"
-    }
-  ]
-}
-```
+## 검증 결과
 
-> `exchangeRate` 값은 예시입니다. 실제 응답에서는 외부 환율 API 조회 결과가 사용됩니다.
+동일 합성 질문50개: 기존 단일 메뉴38/50·평균307ms, 상황 방식44/50·464ms. 상황20개는9→17개 정답, 직접요청30개는29→27개로 일부 회귀했습니다. [원본 결과](docs/situation-selection-results.json)
 
-## 지원 시나리오와 위젯
-
-| 시나리오 | 위젯 |
-| --- | --- |
-| 해외여행 준비 | `travel_card_charge_widget`, `overseas_qr_payment_widget`, `travel_insurance_widget` |
-| 동아리 회비 관리 | `group_account_status`, `expense_report_widget`, `group_card_safety_widget` |
-| 지갑 분실 긴급 대응 | `card_freeze_all`, `atm_smart_withdrawal`, `id_reissue_status_widget` |
-
-## 핵심 설계
-
-### 1. LLM과 금융 계산 분리
-
-`JevCanvasService`는 jev가 고른 위젯을 검증하고 `CanvasParameters`로 명확한 통화·금액·기간을 읽습니다. AI가 환율 숫자를 생성하지 않습니다. `ExchangeRateService`가 외부 API에서 실제 값을 조회하고 `WidgetDataService`가 최종 위젯 데이터를 계산합니다.
-
-### 2. 승인된 위젯만 생성
-
-고정된 9개 후보에 대한 jev 판정만 받고, 서버가 허용 목록·최대 3개·중복·검토 필요 여부를 검사합니다. 프론트엔드에서 구현되지 않은 임의의 컴포넌트나 코드를 실행하지 않습니다.
-
-### 3. 장애 폴백
-
-빈 메시지는 AI를 호출하지 않습니다. jev 호출 실패·잘못된 응답은 502/504, 키 미설정은 503으로 반환합니다. 불확실한 선택이나 모호한 파라미터는 `status=needs_clarification`과 빈 위젯으로 확인을 요청합니다. 환율 API 장애 시 기존 캐시를 유지하며, 캐시도 없으면 지원 불가 상태를 반환합니다.
+업무 분류는54개의 정의와 기타 명확한 메뉴 요청 경로를 사용합니다. 무제한 자유 추론이 아니며 합성 평가가 실사용 정확도를 보장하지 않습니다. [상세 설계](docs/JEV_CANVAS.md)
 
 ## 실행 방법
 
@@ -137,7 +81,7 @@ $env:JEV_AI_API_KEY="your-jev-api-key"
 
 | 이름 | 필수 | 설명 |
 | --- | --- | --- |
-| `JEV_AI_API_KEY` | Yes | 기본 화면 생성용 jev 인증 키 |
+| `JEV_AI_API_KEY` | Yes | JSON 메뉴 선택용 jev 인증 키 |
 | `JEV_MODEL` | No | 기본 `jev-latest` |
 | `JEV_MIN_CONFIDENCE` | No | 기본 0.6, 확률 보정이 검증된 값은 아님 |
 | `OPENAI_API_KEY` | No | 기존 GPT 비교 실험에만 필요 |

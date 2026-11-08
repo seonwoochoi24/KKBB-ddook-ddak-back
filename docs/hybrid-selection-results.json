@@ -1,0 +1,5020 @@
+{
+  "scope": "paired synthetic evaluation",
+  "case_sha256": "977feafb44e1edaebe13a14230b133ca08b59920c010841e67c0d8efc2a04761",
+  "model": "jev-latest",
+  "min_confidence": "0.6",
+  "candidates": 40,
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "repeats": 1,
+  "results": [
+    {
+      "id": "menu_01",
+      "category": "specific_menu",
+      "message": "통장 사본을 PDF로 발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "actual_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 463
+    },
+    {
+      "id": "menu_01",
+      "category": "specific_menu",
+      "message": "통장 사본을 PDF로 발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "actual_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 22,
+        "jevMs": 354,
+        "inputTokens": 6371,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 392
+    },
+    {
+      "id": "menu_01",
+      "category": "specific_menu",
+      "message": "통장 사본을 PDF로 발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "actual_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 48,
+        "jevMs": 340,
+        "inputTokens": 6334,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 404
+    },
+    {
+      "id": "menu_02",
+      "category": "specific_menu",
+      "message": "은행에 제출할 예금 잔액 증명서를 발급하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "actual_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 19,
+        "jevMs": 219,
+        "inputTokens": 6307,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 243
+    },
+    {
+      "id": "menu_02",
+      "category": "specific_menu",
+      "message": "은행에 제출할 예금 잔액 증명서를 발급하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "actual_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 25,
+        "jevMs": 243,
+        "inputTokens": 6310,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 273
+    },
+    {
+      "id": "menu_02",
+      "category": "specific_menu",
+      "message": "은행에 제출할 예금 잔액 증명서를 발급하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "actual_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 242
+    },
+    {
+      "id": "menu_03",
+      "category": "specific_menu",
+      "message": "실손24로 전에 청구했던 내역을 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 23,
+        "jevMs": 242,
+        "inputTokens": 6226,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 271
+    },
+    {
+      "id": "menu_03",
+      "category": "specific_menu",
+      "message": "실손24로 전에 청구했던 내역을 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 217
+    },
+    {
+      "id": "menu_03",
+      "category": "specific_menu",
+      "message": "실손24로 전에 청구했던 내역을 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 10,
+        "jevMs": 233,
+        "inputTokens": 6380,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 248
+    },
+    {
+      "id": "menu_04",
+      "category": "specific_menu",
+      "message": "실손24에서 병원비 보험금을 청구하려고 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "expected_menu_names": [
+        "실손24 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "actual_menu_names": [
+        "실손24 간편청구"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 226
+    },
+    {
+      "id": "menu_04",
+      "category": "specific_menu",
+      "message": "실손24에서 병원비 보험금을 청구하려고 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "expected_menu_names": [
+        "실손24 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "actual_menu_names": [
+        "실손24 간편청구"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 13,
+        "jevMs": 215,
+        "inputTokens": 6497,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 235
+    },
+    {
+      "id": "menu_04",
+      "category": "specific_menu",
+      "message": "실손24에서 병원비 보험금을 청구하려고 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "expected_menu_names": [
+        "실손24 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "actual_menu_names": [
+        "실손24 간편청구"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 296,
+        "inputTokens": 6424,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 324
+    },
+    {
+      "id": "menu_05",
+      "category": "specific_menu",
+      "message": "KB손해보험에 보험금을 간편하게 청구하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "expected_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "actual_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 10,
+        "jevMs": 239,
+        "inputTokens": 6558,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 255
+    },
+    {
+      "id": "menu_05",
+      "category": "specific_menu",
+      "message": "KB손해보험에 보험금을 간편하게 청구하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "expected_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "actual_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 227,
+        "inputTokens": 6326,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 252
+    },
+    {
+      "id": "menu_05",
+      "category": "specific_menu",
+      "message": "KB손해보험에 보험금을 간편하게 청구하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "expected_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "actual_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "menu_06",
+      "category": "specific_menu",
+      "message": "KB국민 신용카드를 잃어버렸어. 분실신고만 할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 280,
+        "inputTokens": 6104,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 308
+    },
+    {
+      "id": "menu_06",
+      "category": "specific_menu",
+      "message": "KB국민 신용카드를 잃어버렸어. 분실신고만 할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 213
+    },
+    {
+      "id": "menu_06",
+      "category": "specific_menu",
+      "message": "KB국민 신용카드를 잃어버렸어. 분실신고만 할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 5,
+        "jevMs": 212,
+        "inputTokens": 6210,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 220
+    },
+    {
+      "id": "menu_07",
+      "category": "specific_menu",
+      "message": "찾은 국민 신용카드의 분실신고를 해제해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 220
+    },
+    {
+      "id": "menu_07",
+      "category": "specific_menu",
+      "message": "찾은 국민 신용카드의 분실신고를 해제해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 5,
+        "jevMs": 215,
+        "inputTokens": 6358,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 224
+    },
+    {
+      "id": "menu_07",
+      "category": "specific_menu",
+      "message": "찾은 국민 신용카드의 분실신고를 해제해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 15,
+        "jevMs": 222,
+        "inputTokens": 6271,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "menu_08",
+      "category": "specific_menu",
+      "message": "보안카드를 잃어버려서 사고 신고를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "expected_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "actual_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 213,
+        "inputTokens": 6277,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 223
+    },
+    {
+      "id": "menu_08",
+      "category": "specific_menu",
+      "message": "보안카드를 잃어버려서 사고 신고를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "expected_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "actual_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 23,
+        "jevMs": 331,
+        "inputTokens": 6305,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 360
+    },
+    {
+      "id": "menu_08",
+      "category": "specific_menu",
+      "message": "보안카드를 잃어버려서 사고 신고를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "expected_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "actual_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 227
+    },
+    {
+      "id": "menu_09",
+      "category": "specific_menu",
+      "message": "OTP를 찾았으니 분실 등록을 풀고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "expected_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "actual_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 26,
+        "jevMs": 211,
+        "inputTokens": 6107,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 243
+    },
+    {
+      "id": "menu_09",
+      "category": "specific_menu",
+      "message": "OTP를 찾았으니 분실 등록을 풀고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "expected_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "actual_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 253
+    },
+    {
+      "id": "menu_09",
+      "category": "specific_menu",
+      "message": "OTP를 찾았으니 분실 등록을 풀고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "expected_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "actual_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 211,
+        "inputTokens": 6248,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 223
+    },
+    {
+      "id": "menu_10",
+      "category": "specific_menu",
+      "message": "분실한 통장을 재발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "expected_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "actual_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 286
+    },
+    {
+      "id": "menu_10",
+      "category": "specific_menu",
+      "message": "분실한 통장을 재발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "expected_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "actual_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 16,
+        "jevMs": 259,
+        "inputTokens": 6371,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 282
+    },
+    {
+      "id": "menu_10",
+      "category": "specific_menu",
+      "message": "분실한 통장을 재발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "expected_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "actual_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 266,
+        "inputTokens": 6352,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 291
+    },
+    {
+      "id": "menu_11",
+      "category": "specific_menu",
+      "message": "이번 달 국민카드 얼마 결제될 예정인지 확인하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "expected_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "actual_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 209,
+        "inputTokens": 6230,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "menu_11",
+      "category": "specific_menu",
+      "message": "이번 달 국민카드 얼마 결제될 예정인지 확인하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "expected_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "actual_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 212,
+        "inputTokens": 6142,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 238
+    },
+    {
+      "id": "menu_11",
+      "category": "specific_menu",
+      "message": "이번 달 국민카드 얼마 결제될 예정인지 확인하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "expected_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "actual_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 232
+    },
+    {
+      "id": "menu_12",
+      "category": "specific_menu",
+      "message": "카드론 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "expected_menu_names": [
+        "장기카드대출"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "actual_menu_names": [
+        "장기카드대출"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 17,
+        "jevMs": 220,
+        "inputTokens": 6141,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 243
+    },
+    {
+      "id": "menu_12",
+      "category": "specific_menu",
+      "message": "카드론 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "expected_menu_names": [
+        "장기카드대출"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "actual_menu_names": [
+        "장기카드대출"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "menu_12",
+      "category": "specific_menu",
+      "message": "카드론 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "expected_menu_names": [
+        "장기카드대출"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "actual_menu_names": [
+        "장기카드대출"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 219,
+        "inputTokens": 6239,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 231
+    },
+    {
+      "id": "menu_13",
+      "category": "specific_menu",
+      "message": "국민카드 현금서비스 메뉴 어디야",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "expected_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "actual_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "menu_13",
+      "category": "specific_menu",
+      "message": "국민카드 현금서비스 메뉴 어디야",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "expected_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "actual_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 212,
+        "inputTokens": 6354,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 224
+    },
+    {
+      "id": "menu_13",
+      "category": "specific_menu",
+      "message": "국민카드 현금서비스 메뉴 어디야",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "expected_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "actual_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 17,
+        "jevMs": 211,
+        "inputTokens": 6195,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 234
+    },
+    {
+      "id": "menu_14",
+      "category": "specific_menu",
+      "message": "가게 카드 매출이랑 입금액을 한눈에 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 228,
+        "inputTokens": 6212,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "menu_14",
+      "category": "specific_menu",
+      "message": "가게 카드 매출이랑 입금액을 한눈에 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 214,
+        "inputTokens": 6203,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "menu_14",
+      "category": "specific_menu",
+      "message": "가게 카드 매출이랑 입금액을 한눈에 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 215
+    },
+    {
+      "id": "menu_15",
+      "category": "specific_menu",
+      "message": "사업자에게 맞는 정부 정책자금을 추천받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 248,
+        "inputTokens": 6281,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 274
+    },
+    {
+      "id": "menu_15",
+      "category": "specific_menu",
+      "message": "사업자에게 맞는 정부 정책자금을 추천받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "menu_15",
+      "category": "specific_menu",
+      "message": "사업자에게 맞는 정부 정책자금을 추천받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 411,
+        "inputTokens": 6226,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 425
+    },
+    {
+      "id": "menu_16",
+      "category": "specific_menu",
+      "message": "가게 카드 매출 들어오는 계좌를 변경하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 220
+    },
+    {
+      "id": "menu_16",
+      "category": "specific_menu",
+      "message": "가게 카드 매출 들어오는 계좌를 변경하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 224,
+        "inputTokens": 6273,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 236
+    },
+    {
+      "id": "menu_16",
+      "category": "specific_menu",
+      "message": "가게 카드 매출 들어오는 계좌를 변경하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 232,
+        "inputTokens": 6330,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 259
+    },
+    {
+      "id": "menu_17",
+      "category": "specific_menu",
+      "message": "휴양림 예약 가능한 빈자리 현황 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 307,
+        "inputTokens": 6225,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 322
+    },
+    {
+      "id": "menu_17",
+      "category": "specific_menu",
+      "message": "휴양림 예약 가능한 빈자리 현황 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 237,
+        "inputTokens": 6148,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 261
+    },
+    {
+      "id": "menu_17",
+      "category": "specific_menu",
+      "message": "휴양림 예약 가능한 빈자리 현황 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 269
+    },
+    {
+      "id": "menu_18",
+      "category": "specific_menu",
+      "message": "여권 언제 만료되는지 확인할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 12,
+        "jevMs": 224,
+        "inputTokens": 6291,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "menu_18",
+      "category": "specific_menu",
+      "message": "여권 언제 만료되는지 확인할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 216
+    },
+    {
+      "id": "menu_18",
+      "category": "specific_menu",
+      "message": "여권 언제 만료되는지 확인할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 217,
+        "inputTokens": 6222,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 230
+    },
+    {
+      "id": "menu_19",
+      "category": "specific_menu",
+      "message": "원룸 투룸 매물 모아놓은 곳을 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "expected_menu_names": [
+        "원투룸 특화존"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "actual_menu_names": [
+        "원투룸 특화존"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "menu_19",
+      "category": "specific_menu",
+      "message": "원룸 투룸 매물 모아놓은 곳을 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "expected_menu_names": [
+        "원투룸 특화존"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "actual_menu_names": [
+        "원투룸 특화존"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 215,
+        "inputTokens": 6023,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 227
+    },
+    {
+      "id": "menu_19",
+      "category": "specific_menu",
+      "message": "원룸 투룸 매물 모아놓은 곳을 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "expected_menu_names": [
+        "원투룸 특화존"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "actual_menu_names": [
+        "원투룸 특화존"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 281,
+        "inputTokens": 6032,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 308
+    },
+    {
+      "id": "menu_20",
+      "category": "specific_menu",
+      "message": "내 차를 팔고 싶어. 팔아줘 차차차로 연결해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "expected_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "actual_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 223,
+        "inputTokens": 5991,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 236
+    },
+    {
+      "id": "menu_20",
+      "category": "specific_menu",
+      "message": "내 차를 팔고 싶어. 팔아줘 차차차로 연결해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "expected_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "actual_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 14,
+        "jevMs": 287,
+        "inputTokens": 5808,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 305
+    },
+    {
+      "id": "menu_20",
+      "category": "specific_menu",
+      "message": "내 차를 팔고 싶어. 팔아줘 차차차로 연결해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "expected_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "actual_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 579
+    },
+    {
+      "id": "menu_21",
+      "category": "specific_menu",
+      "message": "렌터카를 하루 운전할 건데 하루짜리 자동차보험 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 24,
+        "jevMs": 215,
+        "inputTokens": 6455,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 245
+    },
+    {
+      "id": "menu_21",
+      "category": "specific_menu",
+      "message": "렌터카를 하루 운전할 건데 하루짜리 자동차보험 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 233
+    },
+    {
+      "id": "menu_21",
+      "category": "specific_menu",
+      "message": "렌터카를 하루 운전할 건데 하루짜리 자동차보험 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 241,
+        "inputTokens": 6594,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 254
+    },
+    {
+      "id": "menu_22",
+      "category": "specific_menu",
+      "message": "청년 대상 장학금이나 학자금 정보를 알고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 236
+    },
+    {
+      "id": "menu_22",
+      "category": "specific_menu",
+      "message": "청년 대상 장학금이나 학자금 정보를 알고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "actual_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 255,
+        "inputTokens": 6195,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 267
+    },
+    {
+      "id": "menu_22",
+      "category": "specific_menu",
+      "message": "청년 대상 장학금이나 학자금 정보를 알고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "actual_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 210,
+        "inputTokens": 6147,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 234
+    },
+    {
+      "id": "menu_23",
+      "category": "specific_menu",
+      "message": "리브모바일 해외 로밍 서비스 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 253,
+        "inputTokens": 6378,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 265
+    },
+    {
+      "id": "menu_23",
+      "category": "specific_menu",
+      "message": "리브모바일 해외 로밍 서비스 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 287,
+        "inputTokens": 6226,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 311
+    },
+    {
+      "id": "menu_23",
+      "category": "specific_menu",
+      "message": "리브모바일 해외 로밍 서비스 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 242
+    },
+    {
+      "id": "menu_24",
+      "category": "specific_menu",
+      "message": "고향사랑 기부를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "expected_menu_names": [
+        "고향사랑 기부"
+      ],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "actual_menu_names": [
+        "고향사랑 기부"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 231,
+        "inputTokens": 6159,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 254
+    },
+    {
+      "id": "menu_24",
+      "category": "specific_menu",
+      "message": "고향사랑 기부를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "expected_menu_names": [
+        "고향사랑 기부"
+      ],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "actual_menu_names": [
+        "고향사랑 기부"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 494
+    },
+    {
+      "id": "menu_24",
+      "category": "specific_menu",
+      "message": "고향사랑 기부를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "expected_menu_names": [
+        "고향사랑 기부"
+      ],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "actual_menu_names": [
+        "고향사랑 기부"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 223,
+        "inputTokens": 6165,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 235
+    },
+    {
+      "id": "menu_25",
+      "category": "clarification",
+      "message": "조회 좀 해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 227
+    },
+    {
+      "id": "menu_25",
+      "category": "clarification",
+      "message": "조회 좀 해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 5,
+        "jevMs": 225,
+        "inputTokens": 6448,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 236
+    },
+    {
+      "id": "menu_25",
+      "category": "clarification",
+      "message": "조회 좀 해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 318,
+        "inputTokens": 6276,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 341
+    },
+    {
+      "id": "menu_26",
+      "category": "clarification",
+      "message": "신고 해제하고 싶어",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 238,
+        "inputTokens": 6396,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 251
+    },
+    {
+      "id": "menu_26",
+      "category": "clarification",
+      "message": "신고 해제하고 싶어",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 17,
+        "jevMs": 245,
+        "inputTokens": 6332,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 268
+    },
+    {
+      "id": "menu_26",
+      "category": "clarification",
+      "message": "신고 해제하고 싶어",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "menu_27",
+      "category": "clarification",
+      "message": "통장사본 발급하고 휴양림도 예약할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 24,
+        "jevMs": 260,
+        "inputTokens": 6345,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 290
+    },
+    {
+      "id": "menu_27",
+      "category": "clarification",
+      "message": "통장사본 발급하고 휴양림도 예약할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 230
+    },
+    {
+      "id": "menu_27",
+      "category": "clarification",
+      "message": "통장사본 발급하고 휴양림도 예약할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 251,
+        "inputTokens": 6381,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 265
+    },
+    {
+      "id": "menu_28",
+      "category": "out_of_scope",
+      "message": "김치찌개 맛있게 끓이는 법 알려줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "menu_28",
+      "category": "out_of_scope",
+      "message": "김치찌개 맛있게 끓이는 법 알려줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 14,
+        "jevMs": 295,
+        "inputTokens": 5911,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 315
+    },
+    {
+      "id": "menu_28",
+      "category": "out_of_scope",
+      "message": "김치찌개 맛있게 끓이는 법 알려줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 202,
+        "inputTokens": 5816,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 227
+    },
+    {
+      "id": "menu_29",
+      "category": "out_of_scope",
+      "message": "내일 날씨가 맑을까?",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 342,
+        "inputTokens": 6029,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 353
+    },
+    {
+      "id": "menu_29",
+      "category": "out_of_scope",
+      "message": "내일 날씨가 맑을까?",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 205,
+        "inputTokens": 6003,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 229
+    },
+    {
+      "id": "menu_29",
+      "category": "out_of_scope",
+      "message": "내일 날씨가 맑을까?",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 226
+    },
+    {
+      "id": "menu_30",
+      "category": "out_of_scope",
+      "message": "이 문장을 영어로 번역해줘: 만나서 반갑습니다",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 204,
+        "inputTokens": 5864,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 229
+    },
+    {
+      "id": "menu_30",
+      "category": "out_of_scope",
+      "message": "이 문장을 영어로 번역해줘: 만나서 반갑습니다",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 222
+    },
+    {
+      "id": "menu_30",
+      "category": "out_of_scope",
+      "message": "이 문장을 영어로 번역해줘: 만나서 반갑습니다",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30",
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 219,
+        "inputTokens": 6071,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 231
+    },
+    {
+      "id": "holdout_01",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "회사에서 월급 받을 계좌의 은행이랑 번호를 증명하는 서류를 내래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 235
+    },
+    {
+      "id": "holdout_01",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "회사에서 월급 받을 계좌의 은행이랑 번호를 증명하는 서류를 내래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0495"
+      ],
+      "actual_menu_names": [
+        "금융거래 관련 증명서"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 246,
+        "inputTokens": 6255,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 261
+    },
+    {
+      "id": "holdout_01",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "회사에서 월급 받을 계좌의 은행이랑 번호를 증명하는 서류를 내래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 23,
+        "jevMs": 215,
+        "inputTokens": 6335,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 243
+    },
+    {
+      "id": "holdout_02",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외 비자 서류로 은행에 얼마 보유했는지 증빙해야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 239,
+        "inputTokens": 6135,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 253
+    },
+    {
+      "id": "holdout_02",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외 비자 서류로 은행에 얼마 보유했는지 증빙해야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 234,
+        "inputTokens": 6136,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 261
+    },
+    {
+      "id": "holdout_02",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외 비자 서류로 은행에 얼마 보유했는지 증빙해야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 211
+    },
+    {
+      "id": "holdout_03",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "달마다 같은 날 집주인에게 돈이 나가게 해놓은 걸 이제 그만두려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0207"
+      ],
+      "expected_menu_names": [
+        "자동이체 조회/변경/해지"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 210,
+        "inputTokens": 5999,
+        "outputTokens": 554
+      },
+      "correct": false,
+      "duration_ms": 237
+    },
+    {
+      "id": "holdout_03",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "달마다 같은 날 집주인에게 돈이 나가게 해놓은 걸 이제 그만두려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0207"
+      ],
+      "expected_menu_names": [
+        "자동이체 조회/변경/해지"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 242
+    },
+    {
+      "id": "holdout_03",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "달마다 같은 날 집주인에게 돈이 나가게 해놓은 걸 이제 그만두려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0207"
+      ],
+      "expected_menu_names": [
+        "자동이체 조회/변경/해지"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 258,
+        "inputTokens": 6030,
+        "outputTokens": 554
+      },
+      "correct": false,
+      "duration_ms": 270
+    },
+    {
+      "id": "holdout_04",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "한 번에 송금할 수 있는 최대 금액을 올리고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0214"
+      ],
+      "expected_menu_names": [
+        "이체한도 상세조회/변경"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 220
+    },
+    {
+      "id": "holdout_04",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "한 번에 송금할 수 있는 최대 금액을 올리고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0214"
+      ],
+      "expected_menu_names": [
+        "이체한도 상세조회/변경"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 218,
+        "inputTokens": 6337,
+        "outputTokens": 554
+      },
+      "correct": false,
+      "duration_ms": 230
+    },
+    {
+      "id": "holdout_04",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "한 번에 송금할 수 있는 최대 금액을 올리고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0214"
+      ],
+      "expected_menu_names": [
+        "이체한도 상세조회/변경"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 211,
+        "inputTokens": 6180,
+        "outputTokens": 554
+      },
+      "correct": false,
+      "duration_ms": 235
+    },
+    {
+      "id": "holdout_05",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "은행 계좌 숫자는 모르고 친구 전화번호만 아는데 돈 보내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0203"
+      ],
+      "expected_menu_names": [
+        "연락처이체"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0168"
+      ],
+      "actual_menu_names": [
+        "계좌 이체"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 245,
+        "inputTokens": 6234,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 258
+    },
+    {
+      "id": "holdout_05",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "은행 계좌 숫자는 모르고 친구 전화번호만 아는데 돈 보내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0203"
+      ],
+      "expected_menu_names": [
+        "연락처이체"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0168"
+      ],
+      "actual_menu_names": [
+        "계좌 이체"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 274,
+        "inputTokens": 6280,
+        "outputTokens": 559
+      },
+      "correct": false,
+      "duration_ms": 302
+    },
+    {
+      "id": "holdout_05",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "은행 계좌 숫자는 모르고 친구 전화번호만 아는데 돈 보내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0203"
+      ],
+      "expected_menu_names": [
+        "연락처이체"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0168"
+      ],
+      "actual_menu_names": [
+        "계좌 이체"
+      ],
+      "metrics": null,
+      "correct": false,
+      "duration_ms": 424
+    },
+    {
+      "id": "holdout_06",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "전화기로 찍어 놓은 종이 고지서로 요금을 내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "expected_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "actual_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 216,
+        "inputTokens": 6145,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 242
+    },
+    {
+      "id": "holdout_06",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "전화기로 찍어 놓은 종이 고지서로 요금을 내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "expected_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "actual_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 220
+    },
+    {
+      "id": "holdout_06",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "전화기로 찍어 놓은 종이 고지서로 요금을 내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "expected_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "actual_menu_names": [
+        "고지서 촬영 납부"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 213,
+        "inputTokens": 6252,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 225
+    },
+    {
+      "id": "holdout_07",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "아이가 학교에 들어가서 학생증 겸 결제카드를 만들어주려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "expected_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "actual_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 215
+    },
+    {
+      "id": "holdout_07",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "아이가 학교에 들어가서 학생증 겸 결제카드를 만들어주려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "expected_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "actual_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 225,
+        "inputTokens": 6159,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 237
+    },
+    {
+      "id": "holdout_07",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "아이가 학교에 들어가서 학생증 겸 결제카드를 만들어주려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "expected_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "actual_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 238,
+        "inputTokens": 6132,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 265
+    },
+    {
+      "id": "holdout_08",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "학비 때문에 지원받을 수 있는 장학금과 학자금 자료가 필요해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "actual_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 283,
+        "inputTokens": 6408,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 299
+    },
+    {
+      "id": "holdout_08",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "학비 때문에 지원받을 수 있는 장학금과 학자금 자료가 필요해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "actual_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 219,
+        "inputTokens": 6242,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 247
+    },
+    {
+      "id": "holdout_08",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "학비 때문에 지원받을 수 있는 장학금과 학자금 자료가 필요해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "actual_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 262
+    },
+    {
+      "id": "holdout_09",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "입원비를 실손24로 접수했는데 예전에 신청한 목록을 다시 볼래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 213,
+        "inputTokens": 6217,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "holdout_09",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "입원비를 실손24로 접수했는데 예전에 신청한 목록을 다시 볼래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 234
+    },
+    {
+      "id": "holdout_09",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "입원비를 실손24로 접수했는데 예전에 신청한 목록을 다시 볼래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "actual_menu_names": [
+        "실손24 청구내역"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 230,
+        "inputTokens": 6318,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 242
+    },
+    {
+      "id": "holdout_10",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "소상공인인 내가 사업 고민을 전문가에게 상담받을 수 있을까",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "expected_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "actual_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 214
+    },
+    {
+      "id": "holdout_10",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "소상공인인 내가 사업 고민을 전문가에게 상담받을 수 있을까",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "expected_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "actual_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 223,
+        "inputTokens": 6381,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 236
+    },
+    {
+      "id": "holdout_10",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "소상공인인 내가 사업 고민을 전문가에게 상담받을 수 있을까",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "expected_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "actual_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 215,
+        "inputTokens": 6323,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "holdout_11",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게에서 카드로 받은 돈이 지금 쓰는 은행 말고 다른 계좌로 들어왔으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 279,
+        "inputTokens": 6173,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 292
+    },
+    {
+      "id": "holdout_11",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게에서 카드로 받은 돈이 지금 쓰는 은행 말고 다른 계좌로 들어왔으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 214,
+        "inputTokens": 6207,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "holdout_11",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게에서 카드로 받은 돈이 지금 쓰는 은행 말고 다른 계좌로 들어왔으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "actual_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 224
+    },
+    {
+      "id": "holdout_12",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게 손님들이 카드로 낸 돈과 실제 들어온 돈을 대조하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 230,
+        "inputTokens": 6093,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 256
+    },
+    {
+      "id": "holdout_12",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게 손님들이 카드로 낸 돈과 실제 들어온 돈을 대조하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 306
+    },
+    {
+      "id": "holdout_12",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게 손님들이 카드로 낸 돈과 실제 들어온 돈을 대조하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "actual_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 208,
+        "inputTokens": 6145,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 220
+    },
+    {
+      "id": "holdout_13",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 가게 상황에 맞는 정부와 지자체 자금 지원을 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "holdout_13",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 가게 상황에 맞는 정부와 지자체 자금 지원을 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 230,
+        "inputTokens": 6341,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 244
+    },
+    {
+      "id": "holdout_13",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 가게 상황에 맞는 정부와 지자체 자금 지원을 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "actual_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 208,
+        "inputTokens": 6265,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 234
+    },
+    {
+      "id": "holdout_14",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "집을 빌리기 전에 보증금을 사기당할 위험을 진단받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "expected_menu_names": [
+        "전세안전진단"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "actual_menu_names": [
+        "전세안전진단"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 226,
+        "inputTokens": 6407,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 238
+    },
+    {
+      "id": "holdout_14",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "집을 빌리기 전에 보증금을 사기당할 위험을 진단받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "expected_menu_names": [
+        "전세안전진단"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "actual_menu_names": [
+        "전세안전진단"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 12,
+        "jevMs": 225,
+        "inputTokens": 6302,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "holdout_14",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "집을 빌리기 전에 보증금을 사기당할 위험을 진단받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "expected_menu_names": [
+        "전세안전진단"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "actual_menu_names": [
+        "전세안전진단"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 244
+    },
+    {
+      "id": "holdout_15",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 집 소유권이나 담보 등기가 바뀌면 알려줬으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "expected_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "actual_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 215,
+        "inputTokens": 6306,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "holdout_15",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 집 소유권이나 담보 등기가 바뀌면 알려줬으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "expected_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "actual_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 209
+    },
+    {
+      "id": "holdout_15",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 집 소유권이나 담보 등기가 바뀌면 알려줬으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "expected_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "actual_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 237,
+        "inputTokens": 6141,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 249
+    },
+    {
+      "id": "holdout_16",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "차를 빌려서 오늘만 몰 건데 당일 운전 보장을 알아보고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 232
+    },
+    {
+      "id": "holdout_16",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "차를 빌려서 오늘만 몰 건데 당일 운전 보장을 알아보고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 322,
+        "inputTokens": 6478,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 335
+    },
+    {
+      "id": "holdout_16",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "차를 빌려서 오늘만 몰 건데 당일 운전 보장을 알아보고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "actual_menu_names": [
+        "하루자동차보험"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 258,
+        "inputTokens": 6343,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 286
+    },
+    {
+      "id": "holdout_17",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "이번 출국 전에 내 여권이 언제까지 유효한지 알아봐야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 11,
+        "jevMs": 260,
+        "inputTokens": 6096,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 277
+    },
+    {
+      "id": "holdout_17",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "이번 출국 전에 내 여권이 언제까지 유효한지 알아봐야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 261,
+        "inputTokens": 6077,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 285
+    },
+    {
+      "id": "holdout_17",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "이번 출국 전에 내 여권이 언제까지 유효한지 알아봐야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "actual_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 236
+    },
+    {
+      "id": "holdout_18",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "숲속 숙소 중 지금 예약 가능한 자리가 남아 있는지 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 18,
+        "jevMs": 269,
+        "inputTokens": 6046,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 293
+    },
+    {
+      "id": "holdout_18",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "숲속 숙소 중 지금 예약 가능한 자리가 남아 있는지 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 318
+    },
+    {
+      "id": "holdout_18",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "숲속 숙소 중 지금 예약 가능한 자리가 남아 있는지 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "actual_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 8,
+        "jevMs": 238,
+        "inputTokens": 6352,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 252
+    },
+    {
+      "id": "holdout_19",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외에 나가서 리브모바일 번호를 그대로 쓸 수 있는 서비스를 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 308
+    },
+    {
+      "id": "holdout_19",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외에 나가서 리브모바일 번호를 그대로 쓸 수 있는 서비스를 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 4,
+        "jevMs": 269,
+        "inputTokens": 6420,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 277
+    },
+    {
+      "id": "holdout_19",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외에 나가서 리브모바일 번호를 그대로 쓸 수 있는 서비스를 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "actual_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 242,
+        "inputTokens": 6279,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 268
+    },
+    {
+      "id": "holdout_20",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민 신용카드를 잃어버렸다가 다시 찾았으니 분실 조치를 풀래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 290,
+        "inputTokens": 6173,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 302
+    },
+    {
+      "id": "holdout_20",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민 신용카드를 잃어버렸다가 다시 찾았으니 분실 조치를 풀래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 22,
+        "jevMs": 224,
+        "inputTokens": 6255,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 251
+    },
+    {
+      "id": "holdout_20",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민 신용카드를 잃어버렸다가 다시 찾았으니 분실 조치를 풀래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "actual_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "holdout_21",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "현금인출용 직불카드를 분실했는데 국민 신용카드는 아니야. 사고를 접수할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "expected_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "actual_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 21,
+        "jevMs": 226,
+        "inputTokens": 6214,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 253
+    },
+    {
+      "id": "holdout_21",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "현금인출용 직불카드를 분실했는데 국민 신용카드는 아니야. 사고를 접수할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "expected_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "actual_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 315
+    },
+    {
+      "id": "holdout_21",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "현금인출용 직불카드를 분실했는데 국민 신용카드는 아니야. 사고를 접수할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "expected_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "actual_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 255,
+        "inputTokens": 6277,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 268
+    },
+    {
+      "id": "holdout_22",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "OTP를 잃어버려서 신고할래. 다시 발급받는 건 나중에",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "expected_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "actual_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 250
+    },
+    {
+      "id": "holdout_22",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "OTP를 잃어버려서 신고할래. 다시 발급받는 건 나중에",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "expected_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "actual_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 216,
+        "inputTokens": 6340,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "holdout_22",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "OTP를 잃어버려서 신고할래. 다시 발급받는 건 나중에",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "expected_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "actual_menu_names": [
+        "OTP 분실·사고신고"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 15,
+        "jevMs": 255,
+        "inputTokens": 6318,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 275
+    },
+    {
+      "id": "holdout_23",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민카드로 쓴 돈을 매달 일부만 갚고 나머지를 넘기는 약정 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "expected_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "actual_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 229,
+        "inputTokens": 6187,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 241
+    },
+    {
+      "id": "holdout_23",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민카드로 쓴 돈을 매달 일부만 갚고 나머지를 넘기는 약정 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "expected_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "actual_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 23,
+        "jevMs": 221,
+        "inputTokens": 6197,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 250
+    },
+    {
+      "id": "holdout_23",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민카드로 쓴 돈을 매달 일부만 갚고 나머지를 넘기는 약정 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "expected_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "actual_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 218
+    },
+    {
+      "id": "holdout_24",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "내가 잘못 보낸 오픈뱅킹 송금을 돌려받도록 신청하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "expected_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "actual_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 16,
+        "jevMs": 303,
+        "inputTokens": 6342,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 324
+    },
+    {
+      "id": "holdout_24",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "내가 잘못 보낸 오픈뱅킹 송금을 돌려받도록 신청하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "expected_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "actual_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 233
+    },
+    {
+      "id": "holdout_24",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "내가 잘못 보낸 오픈뱅킹 송금을 돌려받도록 신청하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "expected_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "actual_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 213,
+        "inputTokens": 6444,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 226
+    },
+    {
+      "id": "holdout_25",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "모르는 사람이 내 계좌로 잘못 보낸 돈을 돌려주는 데 동의할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "expected_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "actual_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 228
+    },
+    {
+      "id": "holdout_25",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "모르는 사람이 내 계좌로 잘못 보낸 돈을 돌려주는 데 동의할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "expected_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "actual_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 218,
+        "inputTokens": 6208,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 230
+    },
+    {
+      "id": "holdout_25",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "모르는 사람이 내 계좌로 잘못 보낸 돈을 돌려주는 데 동의할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "expected_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "ready",
+      "actual_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "actual_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 20,
+        "jevMs": 379,
+        "inputTokens": 6225,
+        "outputTokens": 559
+      },
+      "correct": true,
+      "duration_ms": 403
+    },
+    {
+      "id": "holdout_26",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "이전에 신청한 거 확인해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 250,
+        "inputTokens": 6563,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 261
+    },
+    {
+      "id": "holdout_26",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "이전에 신청한 거 확인해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 16,
+        "jevMs": 234,
+        "inputTokens": 6329,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 256
+    },
+    {
+      "id": "holdout_26",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "이전에 신청한 거 확인해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 231
+    },
+    {
+      "id": "holdout_27",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "보험 처리 좀 도와줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 15,
+        "jevMs": 287,
+        "inputTokens": 6484,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 308
+    },
+    {
+      "id": "holdout_27",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "보험 처리 좀 도와줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 281
+    },
+    {
+      "id": "holdout_27",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "보험 처리 좀 도와줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 5,
+        "jevMs": 219,
+        "inputTokens": 6555,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 230
+    },
+    {
+      "id": "holdout_28",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "카드론도 알아보고 로밍도 신청할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 240
+    },
+    {
+      "id": "holdout_28",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "카드론도 알아보고 로밍도 신청할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 6,
+        "jevMs": 322,
+        "inputTokens": 6344,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 334
+    },
+    {
+      "id": "holdout_28",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "카드론도 알아보고 로밍도 신청할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "needs_clarification",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 17,
+        "jevMs": 221,
+        "inputTokens": 6305,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 244
+    },
+    {
+      "id": "holdout_29",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "냉장고에 남은 재료로 저녁 요리 추천해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 219,
+        "inputTokens": 5919,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 233
+    },
+    {
+      "id": "holdout_29",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "냉장고에 남은 재료로 저녁 요리 추천해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 19,
+        "jevMs": 237,
+        "inputTokens": 5894,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 261
+    },
+    {
+      "id": "holdout_29",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "냉장고에 남은 재료로 저녁 요리 추천해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 226
+    },
+    {
+      "id": "holdout_30",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "파이썬으로 별 찍는 코드 작성해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "hybrid",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "hybrid",
+        "retrievalMs": 16,
+        "jevMs": 211,
+        "inputTokens": 6173,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 233
+    },
+    {
+      "id": "holdout_30",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "파이썬으로 별 찍는 코드 작성해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "baseline",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": null,
+      "correct": true,
+      "duration_ms": 224
+    },
+    {
+      "id": "holdout_30",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "파이썬으로 별 찍는 코드 작성해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "mode": "enriched",
+      "success": true,
+      "actual_status": "no_match",
+      "actual_menu_ids": [],
+      "actual_menu_names": [],
+      "metrics": {
+        "retrievalMode": "lexical",
+        "retrievalMs": 7,
+        "jevMs": 253,
+        "inputTokens": 6567,
+        "outputTokens": 554
+      },
+      "correct": true,
+      "duration_ms": 265
+    }
+  ],
+  "semantic_health": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "catalog_sha256": "5c524f7c8a7a1f4fac6e72931c6d8df335fe0490ff348a64931e694f10dea7fe",
+    "menus": 628
+  },
+  "summary": {
+    "baseline": {
+      "requests": 60,
+      "successful": 60,
+      "correct": 54,
+      "accuracy_percent": 90.0,
+      "mean_ms": 253.4,
+      "p95_ms": 424,
+      "by_split": {
+        "new_indirect_30": {
+          "correct": 25,
+          "total": 30,
+          "mean_ms": 247.9
+        },
+        "previous_30": {
+          "correct": 29,
+          "total": 30,
+          "mean_ms": 258.9
+        }
+      },
+      "by_category": {
+        "clarification": {
+          "correct": 6,
+          "total": 6
+        },
+        "out_of_scope": {
+          "correct": 5,
+          "total": 5
+        },
+        "specific_menu": {
+          "correct": 43,
+          "total": 49
+        }
+      },
+      "mean_retrieval_ms": null,
+      "mean_jev_ms": null
+    },
+    "enriched": {
+      "requests": 60,
+      "successful": 60,
+      "correct": 55,
+      "accuracy_percent": 91.7,
+      "mean_ms": 258.8,
+      "p95_ms": 335,
+      "by_split": {
+        "new_indirect_30": {
+          "correct": 25,
+          "total": 30,
+          "mean_ms": 257.1
+        },
+        "previous_30": {
+          "correct": 30,
+          "total": 30,
+          "mean_ms": 260.6
+        }
+      },
+      "by_category": {
+        "clarification": {
+          "correct": 6,
+          "total": 6
+        },
+        "out_of_scope": {
+          "correct": 5,
+          "total": 5
+        },
+        "specific_menu": {
+          "correct": 44,
+          "total": 49
+        }
+      },
+      "mean_retrieval_ms": 7.7,
+      "mean_jev_ms": 245.2
+    },
+    "hybrid": {
+      "requests": 60,
+      "successful": 60,
+      "correct": 55,
+      "accuracy_percent": 91.7,
+      "mean_ms": 268.5,
+      "p95_ms": 341,
+      "by_split": {
+        "new_indirect_30": {
+          "correct": 25,
+          "total": 30,
+          "mean_ms": 263.8
+        },
+        "previous_30": {
+          "correct": 30,
+          "total": 30,
+          "mean_ms": 273.2
+        }
+      },
+      "by_category": {
+        "clarification": {
+          "correct": 6,
+          "total": 6
+        },
+        "out_of_scope": {
+          "correct": 5,
+          "total": 5
+        },
+        "specific_menu": {
+          "correct": 44,
+          "total": 49
+        }
+      },
+      "mean_retrieval_ms": 20.0,
+      "mean_jev_ms": 242.8
+    }
+  },
+  "retrieval_summary": {
+    "specific_queries": 49,
+    "lexical_recall_at_40": 44,
+    "hybrid_recall_at_40": 45
+  },
+  "source_sha256": {
+    "HybridMenuRetriever.java": "cfe79e0c90234bdb0f97ffecb007ec79002d1313d34f30829b21bdc19706ab72",
+    "MenuCatalog.java": "b97f35e30ff4cccdcbc0538e7dff554d03b9ca2f09906020135c110e5d532cc1",
+    "JevMenuSelectionService.java": "a99df8154ba003e363a76e52a01ce8c68ac3f7183acba300d29cfa2944453dc4",
+    "menu_selection_metadata.json": "8d8d88d1ef1bbdd0143d9f55ecae2477ac20f5bcca85afb0eb7adca42f9205bc"
+  },
+  "limitations": [
+    "합성 질문 60개·각 방식 1회 비교이며 전체 실사용 정확도를 뜻하지 않음.",
+    "이전 30개와 알려진 오답 1건을 본 상태에서 개선했으며, 새 30개는 평가 전에 고정하고 결과를 보고 튜닝하지 않음.",
+    "모델·문서 벡터 초기 로딩은 응답 시간에서 제외. 요청별 질문 벡터 생성 시간은 포함.",
+    "혼합 방식 60건 모두 retrievalMode=hybrid를 확인했으며 폴백 결과는 포함하지 않음."
+  ]
+}

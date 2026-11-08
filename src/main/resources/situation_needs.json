@@ -1,0 +1,328 @@
+{
+  "needs": [
+    {
+      "id": "account_proof",
+      "label": "계좌 소유·급여 수령 계좌 증빙",
+      "semantic_query": "계좌개설확인서 통장사본 발급",
+      "choose_when": "회사 제출용 계좌 증빙이 필요한 경우"
+    },
+    {
+      "id": "balance_proof",
+      "label": "보유 예금·자금 증빙",
+      "semantic_query": "예금잔액증명서 발급",
+      "choose_when": "비자 등 보유 자금 증빙이 필요한 경우"
+    },
+    {
+      "id": "recurring_transfer",
+      "label": "반복 송금 중단·변경",
+      "semantic_query": "자동이체 조회 변경 해지",
+      "choose_when": "정기적으로 보내는 돈의 일정·금액·중단 관리가 필요한 경우"
+    },
+    {
+      "id": "transfer_limit",
+      "label": "송금 한도 확인·조정",
+      "semantic_query": "이체한도 상세조회 변경",
+      "choose_when": "한 번 또는 하루에 보낼 수 있는 금액을 확인·조정하는 경우"
+    },
+    {
+      "id": "phone_transfer",
+      "label": "계좌번호 없이 전화번호로 송금",
+      "semantic_query": "연락처이체",
+      "choose_when": "상대방 계좌번호 없이 연락처로 송금하려는 경우"
+    },
+    {
+      "id": "bank_transfer",
+      "label": "일반 계좌 송금",
+      "semantic_query": "계좌 이체",
+      "choose_when": "계좌번호로 돈을 보내려는 경우"
+    },
+    {
+      "id": "transfer_history",
+      "label": "송금 결과 확인",
+      "semantic_query": "이체결과조회",
+      "choose_when": "송금 처리 내역을 확인하는 경우"
+    },
+    {
+      "id": "account_overview",
+      "label": "내 계좌·잔액 확인",
+      "semantic_query": "전체계좌조회",
+      "choose_when": "보유 계좌와 잔액을 확인하려는 경우"
+    },
+    {
+      "id": "foreign_exchange",
+      "label": "해외여행 현지 통화 준비",
+      "semantic_query": "환전신청",
+      "choose_when": "해외 방문에 사용할 외화를 준비하는 경우"
+    },
+    {
+      "id": "foreign_payment",
+      "label": "해외 현지 QR 결제 준비",
+      "semantic_query": "해외 QR 결제",
+      "choose_when": "해외여행의 현지 결제 방법을 준비하는 경우. 지원 국가·가능 여부를 보장하지 않음"
+    },
+    {
+      "id": "travel_insurance",
+      "label": "해외여행 보험 검토",
+      "semantic_query": "KB손해보험 다이렉트 해외여행보험",
+      "choose_when": "해외여행 중 사고·질병 등에 대비할 보장 검토. 가입됐다고 단정하지 않음"
+    },
+    {
+      "id": "passport_expiry",
+      "label": "여권 유효기간 확인",
+      "semantic_query": "여권 만료일 확인하기",
+      "choose_when": "여권 만료 여부나 유효기간 확인이 필요한 경우"
+    },
+    {
+      "id": "passport_reissue",
+      "label": "여권 재발급",
+      "semantic_query": "여권 재발급 신청",
+      "choose_when": "여권을 다시 발급받으려는 경우"
+    },
+    {
+      "id": "train_booking",
+      "label": "기차 이동 예약",
+      "semantic_query": "기차표 KTX SRT 예매",
+      "choose_when": "기차 이동을 준비하는 경우"
+    },
+    {
+      "id": "flight_stay_booking",
+      "label": "항공·숙박·렌터카 예약",
+      "semantic_query": "KB Pay 여행",
+      "choose_when": "교통·숙소 예약이 필요한 여행 준비"
+    },
+    {
+      "id": "forest_booking",
+      "label": "휴양림 예약 준비",
+      "semantic_query": "휴양림 예약서비스",
+      "choose_when": "자연휴양림 숙박 예약을 준비하는 경우"
+    },
+    {
+      "id": "forest_availability",
+      "label": "휴양림 남은 자리 확인",
+      "semantic_query": "휴양림별 잔여현황 보기",
+      "choose_when": "휴양림 예약 가능한 잔여 객실 확인"
+    },
+    {
+      "id": "roaming",
+      "label": "리브모바일 해외 통신 준비",
+      "semantic_query": "리브모바일 로밍서비스",
+      "choose_when": "리브모바일 이용자가 해외에서도 번호를 사용하는 통신 준비"
+    },
+    {
+      "id": "card_loss",
+      "label": "국민 신용카드 분실 대응",
+      "semantic_query": "국민카드 분실신고",
+      "choose_when": "KB국민 신용카드를 잃어버려 사용 차단·신고하는 경우"
+    },
+    {
+      "id": "card_found",
+      "label": "찾은 국민 신용카드 분실 해제",
+      "semantic_query": "국민카드 분실해제",
+      "choose_when": "찾은 신용카드의 기존 분실 조치를 해제하는 경우"
+    },
+    {
+      "id": "debit_loss",
+      "label": "현금·직불카드 분실 대응",
+      "semantic_query": "현금 직불카드 분실 사고신고",
+      "choose_when": "현금인출용·직불카드를 잃어버린 경우"
+    },
+    {
+      "id": "security_loss",
+      "label": "보안카드 분실 대응",
+      "semantic_query": "보안카드 분실 사고신고",
+      "choose_when": "보안카드를 잃어버린 경우"
+    },
+    {
+      "id": "otp_loss",
+      "label": "OTP 분실 대응",
+      "semantic_query": "OTP 분실 사고신고",
+      "choose_when": "OTP를 잃어버린 경우"
+    },
+    {
+      "id": "otp_found",
+      "label": "찾은 OTP 분실 해제",
+      "semantic_query": "OTP 분실등록 해제",
+      "choose_when": "찾은 OTP의 분실 조치를 해제하는 경우"
+    },
+    {
+      "id": "loss_hub",
+      "label": "분실한 매체가 불분명한 사고 대응",
+      "semantic_query": "사고신고",
+      "choose_when": "지갑 분실 등 카드·통장 등 잃어버린 매체가 명확하지 않아 사고신고 종류를 확인하는 경우"
+    },
+    {
+      "id": "cash_without_card",
+      "label": "카드 없이 현금 출금 방법",
+      "semantic_query": "ATM 지점출금",
+      "choose_when": "카드를 사용할 수 없는 상황에서 현금 인출 방법이 필요한 경우"
+    },
+    {
+      "id": "passbook_reissue",
+      "label": "분실 통장 재발급",
+      "semantic_query": "통장 인감분실 재발급",
+      "choose_when": "통장·인감 분실 후 재발급 업무가 필요한 경우"
+    },
+    {
+      "id": "scholarship",
+      "label": "장학금·학자금 지원 정보",
+      "semantic_query": "장학금 학자금 정보",
+      "choose_when": "학비 부담을 위한 장학금·학자금 정보 확인"
+    },
+    {
+      "id": "youth_policy",
+      "label": "청년 대상 정책 정보",
+      "semantic_query": "청년 정책 정보",
+      "choose_when": "청년 공공 지원 정책을 확인하는 경우"
+    },
+    {
+      "id": "claim_new",
+      "label": "실손24 보험금 접수",
+      "semantic_query": "실손24 간편청구",
+      "choose_when": "실손24로 보험금을 청구하는 경우"
+    },
+    {
+      "id": "claim_history",
+      "label": "실손24 청구 진행 내역",
+      "semantic_query": "실손24 청구내역",
+      "choose_when": "실손24로 접수한 기존 청구내역 확인"
+    },
+    {
+      "id": "kb_claim_new",
+      "label": "KB손해보험 보험금 접수",
+      "semantic_query": "KB손해보험 간편청구",
+      "choose_when": "KB손해보험에 보험금을 청구하는 경우"
+    },
+    {
+      "id": "kb_claim_history",
+      "label": "KB손해보험 청구 내역",
+      "semantic_query": "KB손해보험 청구내역",
+      "choose_when": "KB손해보험의 기존 청구내역 확인"
+    },
+    {
+      "id": "daily_car_cover",
+      "label": "하루 운전 보장 준비",
+      "semantic_query": "하루자동차보험",
+      "choose_when": "렌터카나 타인 차량을 잠깐 운전할 때 보험 검토"
+    },
+    {
+      "id": "business_sales",
+      "label": "가게 매출·입금 관리",
+      "semantic_query": "우리가게 카드매출",
+      "choose_when": "사업자 카드매출과 실제 입금액을 관리하는 경우"
+    },
+    {
+      "id": "business_account",
+      "label": "사업용 계좌 설정",
+      "semantic_query": "사업용계좌 설정",
+      "choose_when": "가게의 사업용 계좌를 모아 관리하는 경우"
+    },
+    {
+      "id": "business_funding",
+      "label": "사업자 정부·지자체 지원 검토",
+      "semantic_query": "정책자금 맞춤추천",
+      "choose_when": "가게 운영·창업 자금의 공공 지원 정보를 검토하는 경우"
+    },
+    {
+      "id": "business_consulting",
+      "label": "사업 운영 전문가 상담",
+      "semantic_query": "소상공인컨설팅 전문가 상담신청",
+      "choose_when": "소상공인 사업 고민에 전문가 상담이 필요한 경우"
+    },
+    {
+      "id": "merchant_account",
+      "label": "가맹점 등록·매출 입금계좌 변경",
+      "semantic_query": "카드 가맹점 등록 결제계좌 변경",
+      "choose_when": "가맹점 등록 또는 카드매출 입금계좌를 변경하는 경우"
+    },
+    {
+      "id": "merchant_status",
+      "label": "가맹점 신청 결과 확인",
+      "semantic_query": "카드 가맹점 신청결과 조회",
+      "choose_when": "가맹점 신청 처리 결과 확인"
+    },
+    {
+      "id": "mistaken_sent",
+      "label": "잘못 보낸 오픈뱅킹 송금 반환",
+      "semantic_query": "오픈뱅킹 착오송금 반환신청 조회",
+      "choose_when": "내가 잘못 송금한 돈의 반환 신청"
+    },
+    {
+      "id": "mistaken_received",
+      "label": "잘못 받은 송금 반환 동의",
+      "semantic_query": "착오송금 받은 경우 반환동의",
+      "choose_when": "타인이 잘못 보낸 돈을 돌려주는 것에 동의"
+    },
+    {
+      "id": "rent_safety",
+      "label": "전세 계약 전 보증금 위험 점검",
+      "semantic_query": "전세안전진단",
+      "choose_when": "전세 계약 안전성을 점검하려는 경우"
+    },
+    {
+      "id": "property_alert",
+      "label": "주택 등기 변경 알림",
+      "semantic_query": "부동산 등기변동 알림서비스",
+      "choose_when": "소유권·담보 등 등기변동을 통지받으려는 경우"
+    },
+    {
+      "id": "room_search",
+      "label": "원룸·투룸 주거 매물 탐색",
+      "semantic_query": "원투룸 특화존",
+      "choose_when": "원룸·투룸 거주지를 찾는 경우"
+    },
+    {
+      "id": "bill_payment",
+      "label": "종이 고지서 납부",
+      "semantic_query": "고지서 촬영 납부",
+      "choose_when": "고지서를 촬영해 납부하려는 경우"
+    },
+    {
+      "id": "card_bill",
+      "label": "카드 결제 예정액 확인",
+      "semantic_query": "카드별 결제예정금액 보기",
+      "choose_when": "카드 대금 예정액을 확인하려는 경우"
+    },
+    {
+      "id": "card_loan",
+      "label": "국민카드 카드론",
+      "semantic_query": "장기카드대출",
+      "choose_when": "장기 카드 대출 메뉴를 명시적으로 요청한 경우만 선택"
+    },
+    {
+      "id": "cash_advance",
+      "label": "국민카드 현금서비스",
+      "semantic_query": "단기카드대출 현금서비스",
+      "choose_when": "현금서비스를 명시적으로 요청한 경우만 선택. 현금 부족 상황만으로 대출을 권하지 않음"
+    },
+    {
+      "id": "revolving",
+      "label": "일부 카드대금 이월 약정",
+      "semantic_query": "일부결제금액 이월약정 리볼빙",
+      "choose_when": "리볼빙을 명시적으로 요청한 경우만 선택. 자금 부족 상황만으로 권하지 않음"
+    },
+    {
+      "id": "child_student_card",
+      "label": "자녀 학생증 카드 준비",
+      "semantic_query": "우리 아이 학생증 체크카드 만들기",
+      "choose_when": "자녀 학생증 겸 결제카드 준비"
+    },
+    {
+      "id": "sell_car",
+      "label": "보유 차량 판매",
+      "semantic_query": "팔아줘 차차차",
+      "choose_when": "내 차를 판매하려는 경우"
+    },
+    {
+      "id": "donation",
+      "label": "고향사랑 기부",
+      "semantic_query": "고향사랑 기부",
+      "choose_when": "고향사랑 기부 참여를 원한 경우"
+    },
+    {
+      "id": "other_explicit",
+      "label": "그 밖의 명확한 메뉴 업무",
+      "semantic_query": "사용자 원문으로 의미 검색",
+      "choose_when": "위 업무들에 없지만 금융·생활 메뉴 기능이 명확한 경우. 메뉴 종류가 불명확하면 unsure"
+    }
+  ]
+}

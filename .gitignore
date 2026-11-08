@@ -32,3 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 .run/
+
+# Local semantic model, embeddings and isolated Python runtime
+.semantic-runtime/

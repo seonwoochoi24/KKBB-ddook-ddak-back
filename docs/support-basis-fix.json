@@ -1,0 +1,159 @@
+{
+  "message": "나 사장인데 지원금 받고 싶어",
+  "before": {
+    "status": "needs_clarification",
+    "need_choice": "business_funding",
+    "need_confidence": 0.98,
+    "menu_choice": "kb_menu_0017",
+    "menu_confidence": 1.0,
+    "basis_choice": "explicit",
+    "basis_confidence": 0.32
+  },
+  "additional_reproduction": {
+    "need_choice": "business_funding",
+    "need_confidence": 0.99,
+    "optional_choice": "business_consulting",
+    "optional_confidence": 0.26,
+    "old_result": "needs_clarification"
+  },
+  "after": [
+    {
+      "run": 1,
+      "result": {
+        "status": "ready",
+        "recommendations": [
+          {
+            "menu": {
+              "id": "kb_menu_0017",
+              "name": "정책자금 맞춤추천",
+              "description": "정부·지자체 지원을 안내하는 정책자금 맞춤추천과 신청 진입점.",
+              "select_when": [
+                "사업자에게 맞는 정책자금·지원 추천을 찾을 때"
+              ]
+            },
+            "needId": "business_funding",
+            "need": "사업자 정부·지자체 지원 검토",
+            "basis": "uncertain",
+            "explanation": "상황에 맞는 업무: 사업자 정부·지자체 지원 검토",
+            "menuConfidence": 0.99,
+            "basisConfidence": 0.5
+          }
+        ],
+        "metrics": {
+          "retrievalMode": "semantic_only",
+          "planningMs": 426,
+          "retrievalMs": 7,
+          "selectionMs": 224,
+          "jevCalls": 2
+        },
+        "reviews": [
+          {
+            "stage": "request_basis",
+            "needId": "business_funding",
+            "reason": "basis_uncertain",
+            "choice": "explicit",
+            "confidence": 0.5
+          }
+        ]
+      },
+      "decision_trace": [
+        "DECISIONS 1 {\"need_1\":{\"choice\":\"business_funding\",\"confidence\":0.99},\"need_2\":{\"choice\":\"none\",\"confidence\":0.64},\"need_3\":{\"choice\":\"none\",\"confidence\":0.67}}",
+        "DECISIONS 2 {\"task_1\":{\"choice\":\"kb_menu_0017\",\"confidence\":0.99},\"task_1_basis\":{\"choice\":\"explicit\",\"confidence\":0.5}}"
+      ]
+    },
+    {
+      "run": 2,
+      "result": {
+        "status": "ready",
+        "recommendations": [
+          {
+            "menu": {
+              "id": "kb_menu_0017",
+              "name": "정책자금 맞춤추천",
+              "description": "정부·지자체 지원을 안내하는 정책자금 맞춤추천과 신청 진입점.",
+              "select_when": [
+                "사업자에게 맞는 정책자금·지원 추천을 찾을 때"
+              ]
+            },
+            "needId": "business_funding",
+            "need": "사업자 정부·지자체 지원 검토",
+            "basis": "uncertain",
+            "explanation": "상황에 맞는 업무: 사업자 정부·지자체 지원 검토",
+            "menuConfidence": 0.99,
+            "basisConfidence": 0.1
+          }
+        ],
+        "metrics": {
+          "retrievalMode": "semantic_only",
+          "planningMs": 407,
+          "retrievalMs": 9,
+          "selectionMs": 261,
+          "jevCalls": 2
+        },
+        "reviews": [
+          {
+            "stage": "request_basis",
+            "needId": "business_funding",
+            "reason": "basis_uncertain",
+            "choice": "explicit",
+            "confidence": 0.1
+          }
+        ]
+      },
+      "decision_trace": [
+        "DECISIONS 1 {\"need_1\":{\"choice\":\"business_funding\",\"confidence\":0.99},\"need_2\":{\"choice\":\"none\",\"confidence\":0.61},\"need_3\":{\"choice\":\"none\",\"confidence\":0.7}}",
+        "DECISIONS 2 {\"task_1\":{\"choice\":\"kb_menu_0017\",\"confidence\":0.99},\"task_1_basis\":{\"choice\":\"explicit\",\"confidence\":0.1}}"
+      ]
+    },
+    {
+      "run": 3,
+      "result": {
+        "status": "ready",
+        "recommendations": [
+          {
+            "menu": {
+              "id": "kb_menu_0017",
+              "name": "정책자금 맞춤추천",
+              "description": "정부·지자체 지원을 안내하는 정책자금 맞춤추천과 신청 진입점.",
+              "select_when": [
+                "사업자에게 맞는 정책자금·지원 추천을 찾을 때"
+              ]
+            },
+            "needId": "business_funding",
+            "need": "사업자 정부·지자체 지원 검토",
+            "basis": "uncertain",
+            "explanation": "상황에 맞는 업무: 사업자 정부·지자체 지원 검토",
+            "menuConfidence": 1.0,
+            "basisConfidence": 0.06
+          }
+        ],
+        "metrics": {
+          "retrievalMode": "semantic_only",
+          "planningMs": 400,
+          "retrievalMs": 9,
+          "selectionMs": 223,
+          "jevCalls": 2
+        },
+        "reviews": [
+          {
+            "stage": "request_basis",
+            "needId": "business_funding",
+            "reason": "basis_uncertain",
+            "choice": "explicit",
+            "confidence": 0.06
+          }
+        ]
+      },
+      "decision_trace": [
+        "DECISIONS 1 {\"need_1\":{\"choice\":\"business_funding\",\"confidence\":0.99},\"need_2\":{\"choice\":\"none\",\"confidence\":0.72},\"need_3\":{\"choice\":\"none\",\"confidence\":0.68}}",
+        "DECISIONS 2 {\"task_1\":{\"choice\":\"kb_menu_0017\",\"confidence\":1.0},\"task_1_basis\":{\"choice\":\"explicit\",\"confidence\":0.06}}"
+      ]
+    }
+  ],
+  "validation": "동일 문장 실제 JEV3회 모두 ready 및 정책자금 맞춤추천. 이 한 문장의 회귀 확인이며 전체 정확도를 뜻하지 않음.",
+  "unit_tests": {
+    "tests": 39,
+    "failures": 0,
+    "errors": 0
+  }
+}

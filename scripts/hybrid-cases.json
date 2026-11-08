@@ -1,0 +1,730 @@
+{
+  "note": "변경 모델 평가 전 고정한 새 간접표현 30개 + 이전 공개 평가 30개. 과거 오답 1건을 이미 본 개발 평가이며 새 질문의 결과를 보고 튜닝하지 않음.",
+  "cases": [
+    {
+      "id": "menu_01",
+      "category": "specific_menu",
+      "message": "통장 사본을 PDF로 발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_02",
+      "category": "specific_menu",
+      "message": "은행에 제출할 예금 잔액 증명서를 발급하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_03",
+      "category": "specific_menu",
+      "message": "실손24로 전에 청구했던 내역을 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_04",
+      "category": "specific_menu",
+      "message": "실손24에서 병원비 보험금을 청구하려고 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0568"
+      ],
+      "expected_menu_names": [
+        "실손24 간편청구"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_05",
+      "category": "specific_menu",
+      "message": "KB손해보험에 보험금을 간편하게 청구하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0570"
+      ],
+      "expected_menu_names": [
+        "KB손해보험 간편청구"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_06",
+      "category": "specific_menu",
+      "message": "KB국민 신용카드를 잃어버렸어. 분실신고만 할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0554"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실신고"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_07",
+      "category": "specific_menu",
+      "message": "찾은 국민 신용카드의 분실신고를 해제해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_08",
+      "category": "specific_menu",
+      "message": "보안카드를 잃어버려서 사고 신고를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0511"
+      ],
+      "expected_menu_names": [
+        "보안카드 분실·사고신고"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_09",
+      "category": "specific_menu",
+      "message": "OTP를 찾았으니 분실 등록을 풀고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0515"
+      ],
+      "expected_menu_names": [
+        "OTP 분실등록 해제"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_10",
+      "category": "specific_menu",
+      "message": "분실한 통장을 재발급받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0501"
+      ],
+      "expected_menu_names": [
+        "통장·인감분실 재발급"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_11",
+      "category": "specific_menu",
+      "message": "이번 달 국민카드 얼마 결제될 예정인지 확인하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0274"
+      ],
+      "expected_menu_names": [
+        "카드별 결제예정금액 보기"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_12",
+      "category": "specific_menu",
+      "message": "카드론 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0047"
+      ],
+      "expected_menu_names": [
+        "장기카드대출"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_13",
+      "category": "specific_menu",
+      "message": "국민카드 현금서비스 메뉴 어디야",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0559"
+      ],
+      "expected_menu_names": [
+        "단기카드대출(현금서비스)"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_14",
+      "category": "specific_menu",
+      "message": "가게 카드 매출이랑 입금액을 한눈에 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_15",
+      "category": "specific_menu",
+      "message": "사업자에게 맞는 정부 정책자금을 추천받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_16",
+      "category": "specific_menu",
+      "message": "가게 카드 매출 들어오는 계좌를 변경하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_17",
+      "category": "specific_menu",
+      "message": "휴양림 예약 가능한 빈자리 현황 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_18",
+      "category": "specific_menu",
+      "message": "여권 언제 만료되는지 확인할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_19",
+      "category": "specific_menu",
+      "message": "원룸 투룸 매물 모아놓은 곳을 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0585"
+      ],
+      "expected_menu_names": [
+        "원투룸 특화존"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_20",
+      "category": "specific_menu",
+      "message": "내 차를 팔고 싶어. 팔아줘 차차차로 연결해줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0596"
+      ],
+      "expected_menu_names": [
+        "팔아줘 차차차"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_21",
+      "category": "specific_menu",
+      "message": "렌터카를 하루 운전할 건데 하루짜리 자동차보험 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_22",
+      "category": "specific_menu",
+      "message": "청년 대상 장학금이나 학자금 정보를 알고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_23",
+      "category": "specific_menu",
+      "message": "리브모바일 해외 로밍 서비스 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_24",
+      "category": "specific_menu",
+      "message": "고향사랑 기부를 하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0617"
+      ],
+      "expected_menu_names": [
+        "고향사랑 기부"
+      ],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_25",
+      "category": "clarification",
+      "message": "조회 좀 해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_26",
+      "category": "clarification",
+      "message": "신고 해제하고 싶어",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_27",
+      "category": "clarification",
+      "message": "통장사본 발급하고 휴양림도 예약할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_28",
+      "category": "out_of_scope",
+      "message": "김치찌개 맛있게 끓이는 법 알려줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_29",
+      "category": "out_of_scope",
+      "message": "내일 날씨가 맑을까?",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "menu_30",
+      "category": "out_of_scope",
+      "message": "이 문장을 영어로 번역해줘: 만나서 반갑습니다",
+      "expected_status": "no_match",
+      "expected_menu_ids": [],
+      "split": "previous_30"
+    },
+    {
+      "id": "holdout_01",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "회사에서 월급 받을 계좌의 은행이랑 번호를 증명하는 서류를 내래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0493"
+      ],
+      "expected_menu_names": [
+        "계좌개설확인서·통장사본 발급"
+      ]
+    },
+    {
+      "id": "holdout_02",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외 비자 서류로 은행에 얼마 보유했는지 증빙해야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0492"
+      ],
+      "expected_menu_names": [
+        "예금잔액증명서 발급"
+      ]
+    },
+    {
+      "id": "holdout_03",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "달마다 같은 날 집주인에게 돈이 나가게 해놓은 걸 이제 그만두려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0207"
+      ],
+      "expected_menu_names": [
+        "자동이체 조회/변경/해지"
+      ]
+    },
+    {
+      "id": "holdout_04",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "한 번에 송금할 수 있는 최대 금액을 올리고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0214"
+      ],
+      "expected_menu_names": [
+        "이체한도 상세조회/변경"
+      ]
+    },
+    {
+      "id": "holdout_05",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "은행 계좌 숫자는 모르고 친구 전화번호만 아는데 돈 보내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0203"
+      ],
+      "expected_menu_names": [
+        "연락처이체"
+      ]
+    },
+    {
+      "id": "holdout_06",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "전화기로 찍어 놓은 종이 고지서로 요금을 내고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0242"
+      ],
+      "expected_menu_names": [
+        "고지서 촬영 납부"
+      ]
+    },
+    {
+      "id": "holdout_07",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "아이가 학교에 들어가서 학생증 겸 결제카드를 만들어주려 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0068"
+      ],
+      "expected_menu_names": [
+        "우리 아이 학생증 체크카드 만들기"
+      ]
+    },
+    {
+      "id": "holdout_08",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "학비 때문에 지원받을 수 있는 장학금과 학자금 자료가 필요해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0487"
+      ],
+      "expected_menu_names": [
+        "장학금·학자금 정보"
+      ]
+    },
+    {
+      "id": "holdout_09",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "입원비를 실손24로 접수했는데 예전에 신청한 목록을 다시 볼래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0569"
+      ],
+      "expected_menu_names": [
+        "실손24 청구내역"
+      ]
+    },
+    {
+      "id": "holdout_10",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "소상공인인 내가 사업 고민을 전문가에게 상담받을 수 있을까",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0629"
+      ],
+      "expected_menu_names": [
+        "소상공인컨설팅 전문가 상담신청"
+      ]
+    },
+    {
+      "id": "holdout_11",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게에서 카드로 받은 돈이 지금 쓰는 은행 말고 다른 계좌로 들어왔으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0626"
+      ],
+      "expected_menu_names": [
+        "카드 가맹점 등록·결제계좌 변경"
+      ]
+    },
+    {
+      "id": "holdout_12",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "가게 손님들이 카드로 낸 돈과 실제 들어온 돈을 대조하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0018"
+      ],
+      "expected_menu_names": [
+        "우리가게 카드매출"
+      ]
+    },
+    {
+      "id": "holdout_13",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 가게 상황에 맞는 정부와 지자체 자금 지원을 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0017"
+      ],
+      "expected_menu_names": [
+        "정책자금 맞춤추천"
+      ]
+    },
+    {
+      "id": "holdout_14",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "집을 빌리기 전에 보증금을 사기당할 위험을 진단받고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0589"
+      ],
+      "expected_menu_names": [
+        "전세안전진단"
+      ]
+    },
+    {
+      "id": "holdout_15",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "우리 집 소유권이나 담보 등기가 바뀌면 알려줬으면 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0592"
+      ],
+      "expected_menu_names": [
+        "부동산 등기변동 알림서비스"
+      ]
+    },
+    {
+      "id": "holdout_16",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "차를 빌려서 오늘만 몰 건데 당일 운전 보장을 알아보고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0567"
+      ],
+      "expected_menu_names": [
+        "하루자동차보험"
+      ]
+    },
+    {
+      "id": "holdout_17",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "이번 출국 전에 내 여권이 언제까지 유효한지 알아봐야 해",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0476"
+      ],
+      "expected_menu_names": [
+        "여권 만료일 확인하기"
+      ]
+    },
+    {
+      "id": "holdout_18",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "숲속 숙소 중 지금 예약 가능한 자리가 남아 있는지 보고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0472"
+      ],
+      "expected_menu_names": [
+        "휴양림별 잔여현황 보기"
+      ]
+    },
+    {
+      "id": "holdout_19",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "해외에 나가서 리브모바일 번호를 그대로 쓸 수 있는 서비스를 찾고 있어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0612"
+      ],
+      "expected_menu_names": [
+        "리브모바일 로밍서비스"
+      ]
+    },
+    {
+      "id": "holdout_20",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민 신용카드를 잃어버렸다가 다시 찾았으니 분실 조치를 풀래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0555"
+      ],
+      "expected_menu_names": [
+        "국민카드 분실해제"
+      ]
+    },
+    {
+      "id": "holdout_21",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "현금인출용 직불카드를 분실했는데 국민 신용카드는 아니야. 사고를 접수할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0510"
+      ],
+      "expected_menu_names": [
+        "현금·직불카드 분실·사고신고"
+      ]
+    },
+    {
+      "id": "holdout_22",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "OTP를 잃어버려서 신고할래. 다시 발급받는 건 나중에",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0512"
+      ],
+      "expected_menu_names": [
+        "OTP 분실·사고신고"
+      ]
+    },
+    {
+      "id": "holdout_23",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "국민카드로 쓴 돈을 매달 일부만 갚고 나머지를 넘기는 약정 메뉴 찾아줘",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0560"
+      ],
+      "expected_menu_names": [
+        "일부결제금액 이월약정(리볼빙)"
+      ]
+    },
+    {
+      "id": "holdout_24",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "내가 잘못 보낸 오픈뱅킹 송금을 돌려받도록 신청하고 싶어",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0519"
+      ],
+      "expected_menu_names": [
+        "오픈뱅킹 착오송금 반환신청·조회"
+      ]
+    },
+    {
+      "id": "holdout_25",
+      "split": "new_indirect_30",
+      "category": "specific_menu",
+      "message": "모르는 사람이 내 계좌로 잘못 보낸 돈을 돌려주는 데 동의할래",
+      "expected_status": "ready",
+      "expected_menu_ids": [
+        "kb_menu_0520"
+      ],
+      "expected_menu_names": [
+        "착오송금 받은 경우 반환동의"
+      ]
+    },
+    {
+      "id": "holdout_26",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "이전에 신청한 거 확인해줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": []
+    },
+    {
+      "id": "holdout_27",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "보험 처리 좀 도와줘",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": []
+    },
+    {
+      "id": "holdout_28",
+      "split": "new_indirect_30",
+      "category": "clarification",
+      "message": "카드론도 알아보고 로밍도 신청할래",
+      "expected_status": "needs_clarification",
+      "expected_menu_ids": []
+    },
+    {
+      "id": "holdout_29",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "냉장고에 남은 재료로 저녁 요리 추천해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": []
+    },
+    {
+      "id": "holdout_30",
+      "split": "new_indirect_30",
+      "category": "out_of_scope",
+      "message": "파이썬으로 별 찍는 코드 작성해줘",
+      "expected_status": "no_match",
+      "expected_menu_ids": []
+    }
+  ]
+}
