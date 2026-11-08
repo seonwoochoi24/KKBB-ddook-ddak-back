@@ -1,0 +1,246 @@
+[ {
+  "id" : "menu_01",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0493",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_02",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0492",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_03",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0569",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_04",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0568",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_05",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0570",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_06",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0554",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_07",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0555",
+  "lexical_rank" : 2
+}, {
+  "id" : "menu_08",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0511",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_09",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0515",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_10",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0501",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_11",
+  "hybrid_rank" : 7,
+  "expected" : "kb_menu_0274",
+  "lexical_rank" : 2
+}, {
+  "id" : "menu_12",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0047",
+  "lexical_rank" : 2
+}, {
+  "id" : "menu_13",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0559",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_14",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0018",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_15",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0017",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_16",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0626",
+  "lexical_rank" : 2
+}, {
+  "id" : "menu_17",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0472",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_18",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0476",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_19",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0585",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_20",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0596",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_21",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0567",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_22",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0487",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_23",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0612",
+  "lexical_rank" : 1
+}, {
+  "id" : "menu_24",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0617",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_01",
+  "hybrid_rank" : 20,
+  "expected" : "kb_menu_0493",
+  "lexical_rank" : 0
+}, {
+  "id" : "holdout_02",
+  "hybrid_rank" : 0,
+  "expected" : "kb_menu_0492",
+  "lexical_rank" : 0
+}, {
+  "id" : "holdout_03",
+  "hybrid_rank" : 0,
+  "expected" : "kb_menu_0207",
+  "lexical_rank" : 0
+}, {
+  "id" : "holdout_04",
+  "hybrid_rank" : 0,
+  "expected" : "kb_menu_0214",
+  "lexical_rank" : 0
+}, {
+  "id" : "holdout_05",
+  "hybrid_rank" : 0,
+  "expected" : "kb_menu_0203",
+  "lexical_rank" : 0
+}, {
+  "id" : "holdout_06",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0242",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_07",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0068",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_08",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0487",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_09",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0569",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_10",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0629",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_11",
+  "hybrid_rank" : 5,
+  "expected" : "kb_menu_0626",
+  "lexical_rank" : 8
+}, {
+  "id" : "holdout_12",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0018",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_13",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0017",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_14",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0589",
+  "lexical_rank" : 2
+}, {
+  "id" : "holdout_15",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0592",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_16",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0567",
+  "lexical_rank" : 20
+}, {
+  "id" : "holdout_17",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0476",
+  "lexical_rank" : 2
+}, {
+  "id" : "holdout_18",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0472",
+  "lexical_rank" : 6
+}, {
+  "id" : "holdout_19",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0612",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_20",
+  "hybrid_rank" : 2,
+  "expected" : "kb_menu_0555",
+  "lexical_rank" : 2
+}, {
+  "id" : "holdout_21",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0510",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_22",
+  "hybrid_rank" : 3,
+  "expected" : "kb_menu_0512",
+  "lexical_rank" : 3
+}, {
+  "id" : "holdout_23",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0560",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_24",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0519",
+  "lexical_rank" : 1
+}, {
+  "id" : "holdout_25",
+  "hybrid_rank" : 1,
+  "expected" : "kb_menu_0520",
+  "lexical_rank" : 1
+} ]

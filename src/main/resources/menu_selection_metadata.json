@@ -1,0 +1,2839 @@
+{
+  "kb_menu_0001": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0002": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0003": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0004": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0005": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0006": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0007": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0008": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0009": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0010": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0011": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0012": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0013": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0014": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0016": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0017": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0018": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0019": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0020": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0021": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0022": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0023": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0024": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0025": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0026": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0027": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0028": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0029": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0030": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0031": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0032": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0033": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "예약"
+    ]
+  },
+  "kb_menu_0034": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0035": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0036": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0037": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0038": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0039": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0040": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0041": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0042": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0043": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0044": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0047": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0048": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0049": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0050": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0051": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0052": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0053": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0054": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0055": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0056": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0057": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0058": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0059": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0060": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0061": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0062": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0063": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0064": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0065": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0066": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0067": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0068": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0069": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0070": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0071": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0072": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0076": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0077": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0078": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0079": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0080": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0081": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0082": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0083": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0084": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0085": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0088": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0090": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0091": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0092": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0093": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0094": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0095": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0096": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0097": {
+    "kind": "task",
+    "actions": [
+      "예약",
+      "상담"
+    ]
+  },
+  "kb_menu_0098": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0099": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0100": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0101": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0102": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0103": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0104": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0105": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0106": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0107": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0108": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0109": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0110": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0111": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0112": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0113": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0114": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0116": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0117": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0118": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0119": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0120": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0121": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0122": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0123": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0124": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0125": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0126": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0127": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0128": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0129": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0130": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0131": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0132": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0133": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0134": {
+    "kind": "task",
+    "actions": [
+      "진단"
+    ]
+  },
+  "kb_menu_0136": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0137": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0139": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0145": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0146": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0147": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0148": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0149": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0150": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0151": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0152": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0153": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0154": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0155": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0156": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0157": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0158": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0159": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0160": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0161": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0162": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0163": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0164": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0165": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0166": {
+    "kind": "task",
+    "actions": [
+      "변경"
+    ]
+  },
+  "kb_menu_0167": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0168": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0169": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0170": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0171": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0172": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0173": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0174": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0175": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0176": {
+    "kind": "task",
+    "actions": [
+      "상담"
+    ]
+  },
+  "kb_menu_0177": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0178": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0179": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0180": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0181": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0182": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0183": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0184": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0185": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0186": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0187": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0188": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0189": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0190": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0191": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0192": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0193": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0194": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "변경"
+    ]
+  },
+  "kb_menu_0195": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0196": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0197": {
+    "kind": "task",
+    "actions": [
+      "변경"
+    ]
+  },
+  "kb_menu_0198": {
+    "kind": "task",
+    "actions": [
+      "해제"
+    ]
+  },
+  "kb_menu_0199": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0200": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0201": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0202": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0203": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0204": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0205": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0206": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0207": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "변경"
+    ]
+  },
+  "kb_menu_0208": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "납부"
+    ]
+  },
+  "kb_menu_0209": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0210": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0211": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0212": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0213": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0214": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "변경"
+    ]
+  },
+  "kb_menu_0215": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0216": {
+    "kind": "task",
+    "actions": [
+      "변경",
+      "등록"
+    ]
+  },
+  "kb_menu_0217": {
+    "kind": "task",
+    "actions": [
+      "변경"
+    ]
+  },
+  "kb_menu_0218": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0219": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0220": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0221": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0222": {
+    "kind": "task",
+    "actions": [
+      "해제"
+    ]
+  },
+  "kb_menu_0223": {
+    "kind": "task",
+    "actions": [
+      "해제"
+    ]
+  },
+  "kb_menu_0224": {
+    "kind": "task",
+    "actions": [
+      "예약"
+    ]
+  },
+  "kb_menu_0225": {
+    "kind": "task",
+    "actions": [
+      "예약"
+    ]
+  },
+  "kb_menu_0226": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "납부"
+    ]
+  },
+  "kb_menu_0227": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0228": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0229": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0230": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0231": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0232": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0233": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0234": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0235": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0236": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0237": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0238": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0239": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0240": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0241": {
+    "kind": "task",
+    "actions": [
+      "등록",
+      "납부"
+    ]
+  },
+  "kb_menu_0242": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0243": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0244": {
+    "kind": "task",
+    "actions": [
+      "납부",
+      "예약"
+    ]
+  },
+  "kb_menu_0245": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0246": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "납부"
+    ]
+  },
+  "kb_menu_0247": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0248": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0249": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0250": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0251": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0252": {
+    "kind": "task",
+    "actions": [
+      "신청",
+      "납부"
+    ]
+  },
+  "kb_menu_0253": {
+    "kind": "task",
+    "actions": [
+      "납부"
+    ]
+  },
+  "kb_menu_0254": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "납부"
+    ]
+  },
+  "kb_menu_0255": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0256": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0257": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0258": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0259": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0260": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0261": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0262": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0263": {
+    "kind": "task",
+    "actions": [
+      "진단"
+    ]
+  },
+  "kb_menu_0264": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0265": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0266": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0267": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0268": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0269": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0270": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0271": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0272": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0273": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0274": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0275": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0276": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0277": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0278": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0279": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0280": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0281": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0282": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0283": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0284": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0285": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0286": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0287": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0288": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0289": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0290": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0291": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0292": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0293": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0294": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0295": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0296": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0297": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0298": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0299": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0300": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0301": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0302": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0303": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0304": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0305": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0306": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0307": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0308": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0309": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0310": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0311": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0312": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0313": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0314": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0315": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0316": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0317": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0318": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0319": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0320": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0321": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0322": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0323": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0324": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0325": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0326": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0327": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0329": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0330": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0331": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0332": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0333": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0334": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0335": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0336": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0337": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0338": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0339": {
+    "kind": "task",
+    "actions": [
+      "신청",
+      "변경"
+    ]
+  },
+  "kb_menu_0340": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "신청",
+      "변경"
+    ]
+  },
+  "kb_menu_0342": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0343": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0344": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0345": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0346": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0347": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0348": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0349": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0350": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0351": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0352": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0353": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0354": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0355": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0356": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0357": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0358": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0359": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0360": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0361": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0362": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0363": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0364": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0365": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0366": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0367": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0368": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0369": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0370": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0371": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0372": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0373": {
+    "kind": "task",
+    "actions": [
+      "상담"
+    ]
+  },
+  "kb_menu_0374": {
+    "kind": "task",
+    "actions": [
+      "변경"
+    ]
+  },
+  "kb_menu_0375": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0376": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0377": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0378": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0379": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0380": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0381": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0382": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0383": {
+    "kind": "task",
+    "actions": [
+      "예약"
+    ]
+  },
+  "kb_menu_0384": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0385": {
+    "kind": "task",
+    "actions": [
+      "신청",
+      "발급",
+      "재발급"
+    ]
+  },
+  "kb_menu_0386": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0387": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0388": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0389": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0390": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0391": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0392": {
+    "kind": "hub",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0393": {
+    "kind": "hub",
+    "actions": [
+      "발급",
+      "재발급"
+    ]
+  },
+  "kb_menu_0394": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0395": {
+    "kind": "hub",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0396": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0397": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0398": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0399": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0400": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0401": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0402": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0403": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0404": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0405": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0406": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0407": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0408": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0409": {
+    "kind": "hub",
+    "actions": []
+  },
+  "kb_menu_0410": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0411": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0412": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0413": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0414": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0415": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0141": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0142": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0143": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0144": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0140": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0086": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0087": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0089": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0075": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0073": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0074": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0135": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0138": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0045": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0046": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0341": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0015": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0416": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0417": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0418": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0419": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0420": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0421": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0422": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0423": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0424": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0425": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0426": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0427": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0428": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0429": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0430": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0431": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0432": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0433": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0434": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0435": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0436": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0437": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0438": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0439": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0440": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0441": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0442": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0443": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0444": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0445": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0446": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0447": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0448": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0449": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0450": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0451": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0452": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0453": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0454": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0455": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0456": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0457": {
+    "kind": "task",
+    "actions": [
+      "변경"
+    ]
+  },
+  "kb_menu_0458": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0459": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0460": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0461": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0462": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0463": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0464": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0465": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0466": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0467": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0468": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0469": {
+    "kind": "task",
+    "actions": [
+      "예약"
+    ]
+  },
+  "kb_menu_0470": {
+    "kind": "task",
+    "actions": [
+      "신청"
+    ]
+  },
+  "kb_menu_0471": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0472": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0473": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0474": {
+    "kind": "task",
+    "actions": [
+      "해제"
+    ]
+  },
+  "kb_menu_0475": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0476": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0477": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0478": {
+    "kind": "task",
+    "actions": [
+      "신청",
+      "해제"
+    ]
+  },
+  "kb_menu_0479": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0480": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0481": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0482": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0483": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0484": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0485": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0486": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0487": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0488": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0489": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0490": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0491": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0492": {
+    "kind": "task",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0493": {
+    "kind": "task",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0494": {
+    "kind": "task",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0495": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0496": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0497": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "발급"
+    ]
+  },
+  "kb_menu_0498": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0499": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0500": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0501": {
+    "kind": "task",
+    "actions": [
+      "발급",
+      "재발급"
+    ]
+  },
+  "kb_menu_0502": {
+    "kind": "task",
+    "actions": [
+      "발급",
+      "재발급"
+    ]
+  },
+  "kb_menu_0503": {
+    "kind": "task",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0504": {
+    "kind": "task",
+    "actions": [
+      "발급",
+      "재발급"
+    ]
+  },
+  "kb_menu_0505": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "발급"
+    ]
+  },
+  "kb_menu_0506": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0507": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0508": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0509": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0510": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0511": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0512": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0513": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0514": {
+    "kind": "task",
+    "actions": [
+      "해제",
+      "등록"
+    ]
+  },
+  "kb_menu_0515": {
+    "kind": "task",
+    "actions": [
+      "해제",
+      "등록"
+    ]
+  },
+  "kb_menu_0516": {
+    "kind": "task",
+    "actions": [
+      "해제",
+      "등록"
+    ]
+  },
+  "kb_menu_0517": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0518": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0519": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "신청"
+    ]
+  },
+  "kb_menu_0520": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0521": {
+    "kind": "task",
+    "actions": [
+      "해제",
+      "등록"
+    ]
+  },
+  "kb_menu_0522": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0523": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0524": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0525": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0526": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0527": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0528": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0529": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0530": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0531": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0532": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0533": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0534": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0535": {
+    "kind": "task",
+    "actions": [
+      "발급"
+    ]
+  },
+  "kb_menu_0536": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0537": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0538": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0539": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0540": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0541": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0542": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0543": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0544": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0545": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0546": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0547": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0548": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0549": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0550": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0551": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0552": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0553": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0554": {
+    "kind": "task",
+    "actions": [
+      "신고"
+    ]
+  },
+  "kb_menu_0555": {
+    "kind": "task",
+    "actions": [
+      "해제"
+    ]
+  },
+  "kb_menu_0556": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0557": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0558": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0559": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0560": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0561": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0562": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0563": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0564": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0565": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0566": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0567": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0568": {
+    "kind": "task",
+    "actions": [
+      "청구"
+    ]
+  },
+  "kb_menu_0569": {
+    "kind": "task",
+    "actions": [
+      "청구"
+    ]
+  },
+  "kb_menu_0570": {
+    "kind": "task",
+    "actions": [
+      "청구"
+    ]
+  },
+  "kb_menu_0571": {
+    "kind": "task",
+    "actions": [
+      "청구"
+    ]
+  },
+  "kb_menu_0572": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0573": {
+    "kind": "task",
+    "actions": [
+      "상담"
+    ]
+  },
+  "kb_menu_0574": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0575": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0576": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0577": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0578": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0579": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0580": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0581": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0582": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0583": {
+    "kind": "task",
+    "actions": [
+      "등록"
+    ]
+  },
+  "kb_menu_0584": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0585": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0586": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0587": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0588": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0589": {
+    "kind": "task",
+    "actions": [
+      "진단"
+    ]
+  },
+  "kb_menu_0590": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0591": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0592": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0593": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0594": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0595": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0596": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0597": {
+    "kind": "task",
+    "actions": [
+      "조회"
+    ]
+  },
+  "kb_menu_0598": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0599": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0600": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0601": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0602": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0603": {
+    "kind": "product",
+    "actions": []
+  },
+  "kb_menu_0604": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0605": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0606": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0607": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0608": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0609": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0610": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0611": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0612": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0613": {
+    "kind": "task",
+    "actions": [
+      "상담"
+    ]
+  },
+  "kb_menu_0614": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0615": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0616": {
+    "kind": "content",
+    "actions": []
+  },
+  "kb_menu_0617": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0618": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0619": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0620": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0621": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0622": {
+    "kind": "task",
+    "actions": [
+      "상담"
+    ]
+  },
+  "kb_menu_0623": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0624": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0625": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0626": {
+    "kind": "task",
+    "actions": [
+      "변경",
+      "등록"
+    ]
+  },
+  "kb_menu_0627": {
+    "kind": "task",
+    "actions": [
+      "조회",
+      "신청"
+    ]
+  },
+  "kb_menu_0628": {
+    "kind": "task",
+    "actions": []
+  },
+  "kb_menu_0629": {
+    "kind": "task",
+    "actions": [
+      "신청",
+      "상담"
+    ]
+  },
+  "kb_menu_0630": {
+    "kind": "task",
+    "actions": []
+  }
+}
